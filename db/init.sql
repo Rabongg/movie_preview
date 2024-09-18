@@ -1,5 +1,5 @@
 # 필요한 테이블 정보
-CREATE TABLE movie_preview_info (
+CREATE TABLE movie_curtain_call_info (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(80) NOT NULL UNIQUE,
     period VARCHAR(60),
