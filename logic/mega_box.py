@@ -4,7 +4,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from constant import mega_box_url
+from common.constant import mega_box_url
+from common.theater_enum import Theater
+from db.database import insert_data
 
 # Chrome 웹 드라이버 설정
 chrome_options = Options()
@@ -17,10 +19,12 @@ driver.get(mega_box_url)
 # 페이지가 완전히 로드될 때까지 대기
 time.sleep(5)  # 필요에 따라 대기 시간 조절
 
-# 시사회 정보 추출 (예: div 태그의 클래스를 활용하여 정보를 추출)
+# 시사회 정보 추출
 movie_list = driver.find_element(By.CLASS_NAME ,'event-list')
 
 movie_info = movie_list.find_elements(By.TAG_NAME, 'li')
+
+insert_data_list = []
 
 for movie in movie_info:
     movie_title = movie.find_element(By.CLASS_NAME, 'tit').text
@@ -28,5 +32,8 @@ for movie in movie_info:
     print(f"Movie Title: {movie_title}")
     print(f"Movie Date: {movie_date}")
     print('-' * 40)
+    insert_data_list.append((movie_title, movie_date, Theater.MEGABOX.name))
 
 driver.quit()
+
+insert_data(insert_data_list)
