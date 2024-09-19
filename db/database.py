@@ -44,6 +44,3 @@ def get_data(theater: str) -> list[dict]:
   finally:
     cursor.close()
     connection.close()
-    
-# insert_data()
-get_data(theater=Theater.CGV.name)

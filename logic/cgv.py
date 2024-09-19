@@ -6,7 +6,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 from common.constant import cgv_url
 from common.theater_enum import Theater
-from db.database import insert_data
+from db.database import insert_data, get_data
+from utils.utils import data_list_to_set
 
 # Chrome 웹 드라이버 설정
 chrome_options = Options()
@@ -24,6 +25,8 @@ movie_list = driver.find_element(By.CLASS_NAME ,'searchingEventResult_list')
 
 movie_info = movie_list.find_elements(By.TAG_NAME, 'li')
 
+data_set = data_list_to_set(get_data(Theater.CGV.name))
+
 insert_data_list = []
 
 for movie in movie_info:
@@ -33,8 +36,10 @@ for movie in movie_info:
     print(f"Movie Date: {movie_date}")
     print('-' * 40)
     
-    insert_data_list.append((movie_title, movie_date, Theater.CGV.name))
+    if movie_title not in data_set:
+        insert_data_list.append((movie_title, movie_date, Theater.CGV.name))
 
 driver.quit()
 
-insert_data(insert_data_list)
+if insert_data_list:
+    insert_data(insert_data_list)
