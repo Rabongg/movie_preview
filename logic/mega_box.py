@@ -12,7 +12,3 @@ class MEGA_BOX(Movie):
         print('-' * 40)
         
         return movie_title, movie_date
-
-movie = MEGA_BOX(Theater.MEGABOX.name, MEGA_BOX_URL, MEGA_BOX_CLASS_TAG)
-
-movie.get_movie_info()

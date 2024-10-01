@@ -12,7 +12,3 @@ class CGV(Movie):
         print('-' * 40)
         
         return movie_title, movie_date
-
-movie = CGV(Theater.CGV.name, CGV_URL, CGV_CLASS_TAG)
-
-movie.get_movie_info()

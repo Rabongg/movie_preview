@@ -13,7 +13,3 @@ class LOTTE_CINEMA(Movie):
         print('-' * 40)
         
         return movie_title, movie_date
-
-movie = LOTTE_CINEMA(Theater.LOTTE.name, LOTTE_CINEMA_URL, LOTTE_CLASS_TAG)
-
-movie.get_movie_info()
