@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+import logging
 
 class WebDriverManager:
     def __init__(self):
@@ -26,5 +27,5 @@ class WebDriverManager:
             )
             return element
         except Exception as e:
-            print(f"Error occurred: {e}")
+            logging.error(f"Error occurred: {e}")
             return None

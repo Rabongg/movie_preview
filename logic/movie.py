@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from db.database import get_data
 from utils.utils import data_list_to_set
 from utils.web_driver_manager import WebDriverManager
+import logging
 
 class Movie:
     def __init__(self, type: str, url: str, class_tag: str) -> None:
@@ -29,7 +30,7 @@ class Movie:
             return insert_data_list
 
         except Exception:
-            print('=========ERROR==========')
+            logging.error('=========ERROR==========')
             raise Exception
             
     def get_movie_title_and_date(self, movie_info) -> tuple[str, str]:

@@ -1,5 +1,6 @@
 import pymysql
 from common.constant import HOST, PORT, USER, PASSWORD, DATABASE
+import logging
 
 def db_connect():
   conn = pymysql.connect(host=HOST, port=PORT, user=USER, passwd=PASSWORD, database=DATABASE, cursorclass=pymysql.cursors.DictCursor)
@@ -12,16 +13,18 @@ def db_connect():
 def insert_data(movie_info: list):
   cursor, connection = db_connect()
   
-  print(movie_info)
+  logging.info(movie_info)
   try:
     sql = 'insert into movie_curtain_call_info (title, period, theater, created_dt) values (%s, %s, %s, now())'
     
     cursor.executemany(sql, movie_info)
     connection.commit()
+    
+    raise Exception
   
   except Exception as e:
-    print('========== ERROR ==========')
-    print(e)
+    logging.error('========== ERROR ==========')
+    logging.error(e)
     
   finally:
     cursor.close()
@@ -38,8 +41,8 @@ def get_data(theater: str) -> list[dict]:
     return result
   
   except Exception as e:
-    print('========== ERROR ==========')
-    print(e)
+    logging.error('========== ERROR ==========')
+    logging.error(e)
   finally:
     cursor.close()
     connection.close()

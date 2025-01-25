@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 import os
+import logging
 
 def send_email(movie_info_list):
     load_dotenv()
@@ -23,10 +24,10 @@ def send_email(movie_info_list):
     try:
         with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
             server.login(sender_email, password)
-            server.sendmail(sender_email, recipient_email, msg.as_string())
-            print('Email sent successfully!')
+            res = server.sendmail(sender_email, recipient_email, msg.as_string())
+            logging.info('Email sent successfully!')
     except Exception as e:
-        print(f'Failed to send email: {e}')
+        logging.error(f'Failed to send email: {e}')
 
 def make_body_pretty(movie_info_list):
     html_content = """

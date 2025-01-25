@@ -6,6 +6,7 @@ from common.theater_enum import Theater
 from utils.web_driver_manager import WebDriverManager
 from db.database import insert_data
 from utils.send_email import send_email
+import logging
 
 def main():
     try:
@@ -26,7 +27,7 @@ def main():
         send_email(movie_list)
     
     except Exception:
-        print('=========ERROR=======')
+        logging.error('ERROR!!!!!!!!')
         raise Exception
     finally:
         web_driver.quit_driver()
