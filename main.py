@@ -1,16 +1,35 @@
-import subprocess
+from common.constant import CGV_URL, MEGA_BOX_URL, LOTTE_CINEMA_URL, CGV_CLASS_TAG, MEGA_BOX_CLASS_TAG, LOTTE_CLASS_TAG
+from logic.cgv import CGV
+from logic.mega_box import MEGA_BOX
+from logic.lotte_cinema import LOTTE_CINEMA
+from common.theater_enum import Theater
+from utils.web_driver_manager import WebDriverManager
+from db.database import insert_data
+from utils.send_email import send_email
 
-# 가상 환경의 Python 경로
-venv_python = r'C:\Users\yhsoo\OneDrive\바탕 화면\coding\moviePreviewAlarm\.venv\Scripts\python.exe'
-
-# 순차적으로 실행할 Python 파일들
-scripts = ['logic\cgv.py', 'logic\mega_box.py', 'logic\lotte_cinema.py']
-
-# 각 스크립트를 실행
-for script in scripts:
+def main():
     try:
-        # 각 스크립트를 subprocess로 실행
-        result = subprocess.run([venv_python, script], check=True)
-        print(f"{script} 실행 완료.")
-    except subprocess.CalledProcessError as e:
-        print(f"{script} 실행 중 오류 발생: {e}")
+        movie_list = []
+        
+        web_driver = WebDriverManager()
+        
+        cgv = CGV(Theater.CGV.name, CGV_URL, CGV_CLASS_TAG)
+        movie_list.extend(cgv.get_movie_info(web_driver))
+        
+        mega = MEGA_BOX(Theater.MEGABOX.name, MEGA_BOX_URL, MEGA_BOX_CLASS_TAG)
+        movie_list.extend(mega.get_movie_info(web_driver))
+
+        lotte = LOTTE_CINEMA(Theater.LOTTE.name, LOTTE_CINEMA_URL, LOTTE_CLASS_TAG)
+        movie_list.extend(lotte.get_movie_info(web_driver))
+        
+        insert_data(movie_info=movie_list)
+        send_email(movie_list)
+    
+    except Exception:
+        print('=========ERROR=======')
+        raise Exception
+    finally:
+        web_driver.quit_driver()
+
+if __name__ == "__main__":
+    main()

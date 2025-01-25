@@ -1,6 +1,5 @@
 import pymysql
 from common.constant import HOST, PORT, USER, PASSWORD, DATABASE
-from common.theater_enum import Theater
 
 def db_connect():
   conn = pymysql.connect(host=HOST, port=PORT, user=USER, passwd=PASSWORD, database=DATABASE, cursorclass=pymysql.cursors.DictCursor)
