@@ -19,8 +19,6 @@ def insert_data(movie_info: list):
     
     cursor.executemany(sql, movie_info)
     connection.commit()
-    
-    raise Exception
   
   except Exception as e:
     logging.error('========== ERROR ==========')
