@@ -1,6 +1,6 @@
-from enum import Enum, auto
+from enum import StrEnum, auto
 
-class Theater(Enum):
+class Theater(StrEnum):
     CGV = auto()
     MEGABOX = auto()
     LOTTE = auto()
