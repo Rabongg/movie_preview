@@ -3,3 +3,4 @@ webdriver-manager==4.0.2
 python-dotenv==1.0.1
 cryptography==43.0.1
 redis==5.2.1
+pydantic==2.10.6
