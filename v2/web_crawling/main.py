@@ -4,12 +4,15 @@ from logic.mega_box import MEGA_BOX
 from logic.lotte_cinema import LOTTE_CINEMA
 from common.theater_enum import Theater
 from utils.web_driver_manager import WebDriverManager
+from dotenv import load_dotenv
+import os
 import logging
 import json
 
 from logic.redis_publisher import RedisPublisher
 
 def main():
+    load_dotenv()
     try:
         movie_list = []
         
@@ -24,9 +27,10 @@ def main():
         lotte = LOTTE_CINEMA(Theater.LOTTE, LOTTE_CINEMA_URL, LOTTE_CLASS_TAG)
         movie_list.extend(lotte.get_movie_info(web_driver))
         
-        rp = RedisPublisher('test')
+        topic = os.getenv('TOPIC')
+        redis_publisher = RedisPublisher(topic)
         
-        rp.publish_message(json.dumps(movie_list, default=lambda obj: obj.model_dump()))
+        redis_publisher.publish_message(json.dumps(movie_list, default=lambda obj: obj.model_dump()))
     
     except Exception:
         logging.error('ERROR!!!!!!!!')
