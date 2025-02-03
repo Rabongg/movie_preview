@@ -31,7 +31,7 @@ COPY . .
 RUN pip install -r requirements.txt
 
 # 크론탭 파일 복사
-COPY crontab /etc/cron.d/my-cron-job
+COPY email-crontab /etc/cron.d/my-cron-job
 
 # 크론탭 파일 권한 설정
 RUN chmod 0644 /etc/cron.d/my-cron-job
