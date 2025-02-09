@@ -14,7 +14,13 @@ import java.sql.Timestamp;
 @Entity
 @Getter
 @NoArgsConstructor
-@Table(name="movie_curtain_call_info")
+@Table(
+        name="movie_curtain_call_info",
+        uniqueConstraints = {
+                @UniqueConstraint(name = "unique_title_type", columnNames = { "title", "theater" })
+        }
+)
+
 public class MovieInfo {
 
     @Id
@@ -45,7 +51,7 @@ public class MovieInfo {
     public MovieInfo(MovieInfoDto movieInfoDto) {
         this.title = movieInfoDto.getTitle();
         this.period = movieInfoDto.getDate();
-        this.theater = TheaterType.valueOf(movieInfoDto.getTheater().toUpperCase());
+        this.theater = TheaterType.valueOf(movieInfoDto.getTheater());
     }
 
 }
