@@ -3,13 +3,18 @@ package com.example.movie_preview_v2.service.impl;
 import com.example.movie_preview_v2.model.dto.MovieInfoDto;
 import com.example.movie_preview_v2.model.entity.MovieInfo;
 import com.example.movie_preview_v2.service.EmailService;
+import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class EmailServiceImpl implements EmailService {
@@ -19,25 +24,34 @@ public class EmailServiceImpl implements EmailService {
 
     private final JavaMailSender mailSender;
 
-    public void sendEmail(String to, String subject, MovieInfoDto[] movieInfoList) throws Exception{
-        MimeMessage message = mailSender.createMimeMessage();
-        MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
+    public void sendEmail(String to, String subject, List<MovieInfoDto> movieInfoList) {
 
-        helper.setTo(to);
-        helper.setSubject(subject);
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
 
-        helper.setFrom(emailSender); // 보내는 사람
+            helper.setTo(to);
+            helper.setSubject(subject);
 
-        // HTML 내용
+            helper.setFrom(emailSender); // 보내는 사람
 
-        String htmlContent = getEmailContent(movieInfoList);
+            // HTML 내용
+            String htmlContent = getEmailContent(movieInfoList);
 
-        helper.setText(htmlContent, true); // 두 번째 인자를 true로 설정하면 HTML 형식으로 전송
+            helper.setText(htmlContent, true); // 두 번째 인자를 true로 설정하면 HTML 형식으로 전송
 
-        mailSender.send(message);
+            mailSender.send(message);
+            log.info("이메일 전송 성공하였습니다.");
+        } catch (Exception e) {
+            log.error("이메일 전송 실패하였습니다.:");
+            log.error(String.format(" 원인: %s", e.getMessage()));
+            log.error(e.getMessage());
+            throw new RuntimeException(e);
+        }
+
     }
 
-    private String getEmailContent(MovieInfoDto[] movieInfoDtos) {
+    private String getEmailContent(List<MovieInfoDto> movieInfoDtos) {
         String html_content = """
                     <!DOCTYPE html>
                     <html>
