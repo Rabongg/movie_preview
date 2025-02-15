@@ -4,17 +4,66 @@ services:
   redis:
     image: redis:7.4
     container_name: redis_server
+    healthcheck:
+      test: ["CMD", "redis-cli","ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
     restart: always
     ports:
-      - "6380:6379"
+      - "6380:${REDIS_PORT}"
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_server
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "3307:${DB_PORT}"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
   
-  app:
+  web_crawl:
     build:
       context: ./web_crawling
     container_name: web_crawling_app
     depends_on:
-      - redis
+      redis:
+        condition: service_healthy
     environment:
       CHROME_DIR: /usr/bin/google-chrome-stable
       REDIS_HOST: redis_server
-      REDIS_PORT: 6379
+      REDIS_PORT: ${REDIS_PORT}
+
+  spring:
+    build:
+      context: ./spring
+    container_name: spring_app
+    depends_on:
+      redis:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
+    environment:
+      REDIS_HOST: redis_server
+      REDIS_PORT: ${REDIS_PORT}
+      REDIS_TOPIC: ${REDIS_TOPIC}
+      DB_HOST: mysql_server
+      DB_PORT: ${DB_PORT}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+
+volumes:
+  mysql_data:
