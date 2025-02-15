@@ -12,24 +12,24 @@
    프로젝트 폴더에서 가상 환경을 만듭니다.
 
    ```bash
-   python3 -m venv venv
+   python3 -m venv .venv
    ```
 
 2. **가상 환경 활성화**  
    - **Windows**:
      ```bash
-     .\venv\Scripts\activate
+     .\.venv\Scripts\activate
      ```
    - **macOS/Linux**:
      ```bash
-     source venv/bin/activate
+     source .venv/bin/activate
      ```
 
 3. **필요한 패키지 설치**  
    `requirements.txt`에 정의된 의존성 패키지를 설치합니다.
 
    ```bash
-   pip install -r requirements.txt
+   (.venv) pip install -r requirements.txt
    ```
 
 4. **환경 변수 설정**  
@@ -52,7 +52,7 @@
    실행 명령어를 입력하여 시스템을 시작합니다.
 
    ```bash
-   python main.py
+   (.venv) python main.py
    ```
 
 ## 🔄 Workflow
