@@ -1,10 +1,12 @@
 # 🎬 Movie Preview Alarm - v0
 
-이 프로젝트는 영화 시사회/무대 인사 알림을 제공하는 시스템입니다. v0 버전은 Python으로만 구현되었습니다.
+이 프로젝트는 영화 시사회/무대 인사 알림을 제공하는 시스템입니다.  
+v0 버전은 Python으로만 구현되었습니다.
 
 ## 🔧 필수 조건
 
 - Python 3.11 이상
+- mysql 8.0.x 버전
 
 ## 🛠️ 실행 방법
 
@@ -81,5 +83,5 @@
 코드를 실행시키면 다음과 같이 이메일을 전송받게 됩니다.
 
 <p align="center">
-  <img src="../assets/v0/email.png" alt="Workflow Diagram" />
+  <img src="../assets/v2/email.png" alt="Workflow Diagram" />
 </p>
