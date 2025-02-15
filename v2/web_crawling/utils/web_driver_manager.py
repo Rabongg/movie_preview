@@ -31,5 +31,5 @@ class WebDriverManager:
             )
             return element
         except Exception as e:
-            logging.error(f"Error occurred: {e}")
+            logging.exception(f"Error occurred: {e}")
             return None
