@@ -12,7 +12,12 @@ import json
 from logic.redis_publisher import RedisPublisher
 
 def main():
+    # env 파일 load 하기 위해서
     load_dotenv()
+    
+    # log 레벨 설정
+    logging.basicConfig(level=logging.INFO, encoding="utf-8")  # UTF-8 설정
+    
     try:
         movie_list = []
         
@@ -30,10 +35,10 @@ def main():
         topic = os.getenv('TOPIC')
         redis_publisher = RedisPublisher(topic)
         
-        redis_publisher.publish_message(json.dumps(movie_list, default=lambda obj: obj.model_dump()))
+        redis_publisher.publish_message(json.dumps(movie_list, default=lambda obj: obj.model_dump(), ensure_ascii=False))
     
     except Exception:
-        logging.error('ERROR!!!!!!!!')
+        logging.exception('ERROR!!!!!!!!')
         raise Exception
     finally:
         web_driver.quit_driver()
