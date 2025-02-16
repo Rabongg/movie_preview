@@ -30,6 +30,9 @@ RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd6
     && dpkg -i google-chrome-stable_current_amd64.deb || apt-get install -fy \
     && rm -f google-chrome-stable_current_amd64.deb
 
+# 시간 동기화
+ENV TZ Asia/Seoul
+
 # 작업 디렉토리 설정
 WORKDIR /app
 

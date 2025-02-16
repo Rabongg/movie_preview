@@ -9,4 +9,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 COPY --from=build /app/build/libs/*.jar app.jar
 
+# 시간 동기화
+ENV TZ Asia/Seoul
+
 ENTRYPOINT ["java", "-jar", "app.jar"]
