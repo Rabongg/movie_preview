@@ -41,6 +41,9 @@ services:
     depends_on:
       redis:
         condition: service_healthy
+    volumes:
+      - cron_log:/var/log
+    restart: always
     environment:
       CHROME_DIR: /usr/bin/google-chrome-stable
       REDIS_HOST: redis_server
@@ -55,6 +58,7 @@ services:
         condition: service_healthy
       mysql:
         condition: service_healthy
+    restart: always
     environment:
       REDIS_HOST: redis_server
       REDIS_PORT: ${REDIS_PORT}
@@ -67,3 +71,4 @@ services:
 
 volumes:
   mysql_data:
+  cron_log:
