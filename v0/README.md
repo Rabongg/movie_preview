@@ -83,5 +83,5 @@ v0 버전은 Python으로만 구현되었습니다.
 코드를 실행시키면 다음과 같이 이메일을 전송받게 됩니다.
 
 <p align="center">
-  <img src="../assets/v2/email.png" alt="Workflow Diagram" />
+  <img src="../assets/v0/email.png" alt="Workflow Diagram" />
 </p>
