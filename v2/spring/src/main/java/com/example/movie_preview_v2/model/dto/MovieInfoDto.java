@@ -31,7 +31,7 @@ public class MovieInfoDto {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         MovieInfoDto that = (MovieInfoDto) o;
-        return getTitle().equals(that.getTitle()) && getDate().equals(that.getDate()) && getTheater().equals(that.getTheater());
+        return getTitle().equals(that.getTitle()) && getTheater().equals(that.getTheater());
     }
 
     @Override
