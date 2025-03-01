@@ -98,6 +98,7 @@ public class EmailServiceImpl implements EmailService {
                         <tr>
                             <th colspan="2" style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f4f4;">
                                 %s 시사회
+                                <a href="%s" style="font-size: 12px; color: blue; text-decoration: none; margin-left: 10px;">시사회 사이트로 이동</a>
                             </th>
                         </tr>
                         <tr>
@@ -108,7 +109,7 @@ public class EmailServiceImpl implements EmailService {
                                 상영 기한
                             </th>
                         </tr>
-                """, getStyleByTheaterType(theater), theater);
+                """, getStyleByTheaterType(theater), theater, getTheaterURL(theater));
 
                 for (MovieInfoDto movie : movies) {
                     html_content += String.format("""
@@ -146,5 +147,9 @@ public class EmailServiceImpl implements EmailService {
         }
 
         return theaterStyle;
+    }
+
+    private String getTheaterURL(String theaterType) {
+        return TheaterType.valueOf(theaterType.toUpperCase()).URL();
     }
 }
