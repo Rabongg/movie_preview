@@ -26,16 +26,21 @@ public class EmailServiceImpl implements EmailService {
     @Value("${movie.email.sender}")
     private String emailSender;
 
+    @Value("${movie.email.receiver}")
+    private String[] emailReceiver;
+
     private final JavaMailSender mailSender;
 
-    public void sendEmail(String to, String subject, List<MovieInfoDto> movieInfoList) {
+    private final String SUBJECT = "시사회 정보 알려드립니다.";
+
+    public void sendEmail(List<MovieInfoDto> movieInfoList) {
 
         try {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
 
-            helper.setTo(to);
-            helper.setSubject(subject);
+            helper.setBcc(emailReceiver);
+            helper.setSubject(SUBJECT);
 
             helper.setFrom(emailSender); // 보내는 사람
 

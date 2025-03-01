@@ -20,9 +20,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class RedisListener implements MessageListener {
 
-    @Value("${movie.email.receiver}")
-    private String emailReceiver;
-
     private final ObjectMapper objectMapper;
 
     private final MovieService movieService;
@@ -45,7 +42,7 @@ public class RedisListener implements MessageListener {
                     .collect(Collectors.joining(", "))));
 
             if (!newMovieInfo.isEmpty()) {
-                emailService.sendEmail(emailReceiver, "시사회 정보 알려드립니다.", newMovieInfo);
+                emailService.sendEmail(newMovieInfo);
                 movieService.saveMovieInfoData(newMovieInfo);
             }
 
