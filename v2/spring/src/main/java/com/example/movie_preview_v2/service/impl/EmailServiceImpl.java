@@ -67,25 +67,19 @@ public class EmailServiceImpl implements EmailService {
                  <head>
                      <title>영화 시사회 알림</title>
                      <style>
-                         body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; }
-                         .container { max-width: 600px; margin: auto; background-color: white; border-radius: 5px;\s
-                                      box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 20px; }
-                         .header { background-color: #4CAF50; color: white; padding: 15px; text-align: center;\s
-                                   border-radius: 5px 5px 0 0; font-size: 20px; font-weight: bold; }
-                         .table-container { margin-top: 20px; }
-                         table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
-                         th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-                         th { background-color: #f4f4f4; }
                          .cgv { border-left: 5px solid #ff3d00; }
                          .lotte { border-left: 5px solid #ff9800; }
                          .megabox { border-left: 5px solid #3f51b5; }
-                         .footer { text-align: center; padding: 10px; font-size: 12px; color: #777; }
                      </style>
                  </head>
-                 <body>
-                     <div class="container">
-                         <div class="header">🎬 영화 시사회 알림</div>
-                         <div class="table-container">
+                 <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+                     <div class="container" style=" max-width: 600px; margin: auto; background-color: white;\s
+                        border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 20px;">
+                         <div class="header" style="background-color: #4CAF50; color: white; padding: 15px; text-align: center;\s
+                            border-radius: 5px 5px 0 0; font-size: 20px; font-weight: bold;">
+                            🎬 영화 시사회 알림
+                         </div>
+                         <div class="table-container" style="margin-top: 20px;">
                     """;
 
         Map<String, List<MovieInfoDto>> theaterMap = new HashMap<>();
@@ -106,21 +100,27 @@ public class EmailServiceImpl implements EmailService {
             if (!movies.isEmpty()) {
                 String theaterClass = theater.toLowerCase();
                 html_content += String.format("""
-                    <table class="%s">
+                    <table class="%s" style="width: 100%%; border-collapse: collapse; margin-bottom: 20px;">
                         <tr>
-                            <th colspan="2">%s 시사회</th>
+                            <th colspan="2" style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f4f4;">
+                                %s 시사회
+                            </th>
                         </tr>
                         <tr>
-                            <th>영화 제목</th>
-                            <th>상영 기한</th>
+                            <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f4f4;">
+                                영화 제목
+                            </th>
+                            <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f4f4;">
+                                상영 기한
+                            </th>
                         </tr>
                 """, theaterClass, theater);
 
-                    for (MovieInfoDto movie : movies) {
-                        html_content += String.format("""
+                for (MovieInfoDto movie : movies) {
+                    html_content += String.format("""
                     <tr>
-                        <td>%s</td>
-                        <td>%s</td>
+                        <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">%s</td>
+                        <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">%s</td>
                     </tr>
                 """, movie.getTitle(), movie.getDate());
                 }
@@ -130,7 +130,9 @@ public class EmailServiceImpl implements EmailService {
 
         html_content += """
                 </div>
-               <div class="footer">© 2025 Movie Preview Alarm</div>
+               <div class="footer" style="text-align: center; padding: 10px; font-size: 12px; color: #777;">
+                    © 2025 Movie Preview Alarm
+               </div>
                </div>
                </body>
                </html>
