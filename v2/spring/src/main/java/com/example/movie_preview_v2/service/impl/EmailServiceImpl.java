@@ -2,9 +2,9 @@ package com.example.movie_preview_v2.service.impl;
 
 import com.example.movie_preview_v2.common.TheaterType;
 import com.example.movie_preview_v2.model.dto.MovieInfoDto;
-import com.example.movie_preview_v2.model.entity.MovieInfo;
 import com.example.movie_preview_v2.service.EmailService;
-import jakarta.mail.MessagingException;
+import org.apache.commons.text.StringEscapeUtils;
+
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -66,11 +66,6 @@ public class EmailServiceImpl implements EmailService {
                  <html>
                  <head>
                      <title>영화 시사회 알림</title>
-                     <style>
-                         .cgv { border-left: 5px solid #ff3d00; }
-                         .lotte { border-left: 5px solid #ff9800; }
-                         .megabox { border-left: 5px solid #3f51b5; }
-                     </style>
                  </head>
                  <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
                      <div class="container" style=" max-width: 600px; margin: auto; background-color: white;\s
@@ -98,9 +93,8 @@ public class EmailServiceImpl implements EmailService {
         for (String theater : theaterMap.keySet()) {
             List<MovieInfoDto> movies = theaterMap.get(theater);
             if (!movies.isEmpty()) {
-                String theaterClass = theater.toLowerCase();
                 html_content += String.format("""
-                    <table class="%s" style="width: 100%%; border-collapse: collapse; margin-bottom: 20px;">
+                    <table style="width: 100%%; border-collapse: collapse; margin-bottom: 20px; %s">
                         <tr>
                             <th colspan="2" style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f4f4;">
                                 %s 시사회
@@ -114,7 +108,7 @@ public class EmailServiceImpl implements EmailService {
                                 상영 기한
                             </th>
                         </tr>
-                """, theaterClass, theater);
+                """, getStyleByTheaterType(theater), theater);
 
                 for (MovieInfoDto movie : movies) {
                     html_content += String.format("""
@@ -122,7 +116,7 @@ public class EmailServiceImpl implements EmailService {
                         <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">%s</td>
                         <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">%s</td>
                     </tr>
-                """, movie.getTitle(), movie.getDate());
+                """, StringEscapeUtils.escapeHtml4(movie.getTitle()), movie.getDate());
                 }
                 html_content += "</table>";
             }
@@ -139,5 +133,18 @@ public class EmailServiceImpl implements EmailService {
             """;
 
         return html_content;
+    }
+
+    private String getStyleByTheaterType(String theaterType) {
+        String theaterStyle;
+        if (TheaterType.CGV.name().equalsIgnoreCase(theaterType)) {
+            theaterStyle = "border-left: 5px solid #ff3d00;";
+        } else if (TheaterType.MEGABOX.name().equalsIgnoreCase(theaterType)) {
+            theaterStyle = "border-left: 5px solid #3f51b5;";
+        } else {
+            theaterStyle = "border-left: 5px solid #ff9800;";
+        }
+
+        return theaterStyle;
     }
 }
