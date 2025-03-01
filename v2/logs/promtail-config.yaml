@@ -10,12 +10,15 @@ clients:
 scrape_configs:
   # 1️⃣ 컨테이너 로그 수집 설정
   - job_name: docker-logs
+    pipeline_stages:
+      - docker:
+          container_name: spring_app
     static_configs:
       - targets:
           - localhost
         labels:
-          job: "docker-logs"
-        __path__: "/var/lib/docker/containers/*/*-json.log"  # 모든 컨테이너 로그 수집
+          job: "spring-logs"
+          __path__: "/var/lib/docker/containers/*/*-json.log"
 
   # 2️⃣ 파일 로그 수집 설정
   - job_name: file-logs
@@ -25,4 +28,4 @@ scrape_configs:
         labels:
           job: "file-logs"
           app: "cron-job"
-        __path__: "/var/log/_data/cron.log"  # cron.log 파일에 대한 로그 수집
+          __path__: "/var/log/_data/cron.log"
