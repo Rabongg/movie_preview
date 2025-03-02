@@ -30,6 +30,7 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=admin  # 기본 로그인: admin/admin
     volumes:
       - grafana-data:/var/lib/grafana
+      - ./grafana.ini:/etc/grafana/grafana.ini
     depends_on:
       - loki
 
