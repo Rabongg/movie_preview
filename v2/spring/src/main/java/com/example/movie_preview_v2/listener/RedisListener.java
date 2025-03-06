@@ -45,11 +45,8 @@ public class RedisListener implements MessageListener {
                 emailService.sendEmail(newMovieInfo);
                 movieService.saveMovieInfoData(newMovieInfo);
             }
-
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
         } catch (Exception e) {
-            log.error(e.getMessage());
+            log.error("Redis로부터 받은 데이터 처리 중에 에러가 발생했습니다.", e);
         }
     }
 }

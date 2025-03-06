@@ -36,8 +36,8 @@ public class MovieServiceImpl implements MovieService {
             List<MovieInfo> movieInfoList = movieInfoRepository.findAllMovieInfoInTitleAndType(searchPairList);
             List<MovieInfoDto> infoToDto = movieInfoList.stream().map(MovieInfoDto::new).collect(Collectors.toList());
             result = Arrays.stream(movieInfDtoList).filter(movieInfo -> !infoToDto.contains(movieInfo)).collect(Collectors.toList());
-        } catch(Exception err) {
-            log.error(err.getMessage());
+        } catch(Exception e) {
+            log.error("데이터 처리 중 에러가 발생했습니다.", e);
         }
 
         return result;

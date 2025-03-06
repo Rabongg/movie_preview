@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface EmailService {
 
-    public void sendEmail(List<MovieInfoDto> movieInfoList) throws Exception;
+    public void sendEmail(List<MovieInfoDto> movieInfoList);
 }

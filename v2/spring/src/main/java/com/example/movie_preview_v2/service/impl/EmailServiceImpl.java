@@ -33,7 +33,7 @@ public class EmailServiceImpl implements EmailService {
 
     private final String SUBJECT = "시사회 정보 알려드립니다.";
 
-    public void sendEmail(List<MovieInfoDto> movieInfoList) {
+    public void sendEmail(List<MovieInfoDto> movieInfoList)  {
 
         try {
             MimeMessage message = mailSender.createMimeMessage();
@@ -52,10 +52,7 @@ public class EmailServiceImpl implements EmailService {
             mailSender.send(message);
             log.info("이메일 전송 성공하였습니다.");
         } catch (Exception e) {
-            log.error("이메일 전송 실패하였습니다.:");
-            log.error(String.format(" 원인: %s", e.getMessage()));
-            log.error(e.getMessage());
-            throw new RuntimeException(e);
+            log.error("이메일 전송 실패하였습니다.: ", e);
         }
 
     }
