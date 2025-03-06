@@ -21,8 +21,8 @@ class Movie:
             
             insert_data_list = []
 
-            logging.info(f"[Movie Theater: {self.type}]")
-            logging.info(f"Movie Num: {len(movie_info_list)}")
+            logging.debug(f"[Movie Theater: {self.type}]")
+            logging.debug(f"Movie Num: {len(movie_info_list)}")
 
             for movie_info in movie_info_list:
                 movie_title, movie_date = self.get_movie_title_and_date(movie_info=movie_info)

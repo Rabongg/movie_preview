@@ -7,8 +7,8 @@ class CGV(Movie):
         movie_title = movie_info.find_element(By.CLASS_NAME, 'txt1').text
         movie_date_info = movie_info.find_element(By.CLASS_NAME, 'txt2').text
         movie_date = movie_date_info.split()[0]
-        logging.info(f"Movie Title: {movie_title}")
-        logging.info(f"Movie Date: {movie_date}")
-        logging.info('-' * 40)
+        logging.debug(f"Movie Title: {movie_title}")
+        logging.debug(f"Movie Date: {movie_date}")
+        logging.debug('-' * 40)
         
         return movie_title, movie_date
