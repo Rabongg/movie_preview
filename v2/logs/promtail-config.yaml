@@ -5,20 +5,19 @@ positions:
   filename: /tmp/positions.yaml  # 로그 위치 기억
 
 clients:
-  - url: http://loki:3100/loki/api/v1/push  # Loki로 로그 전송
+  - url: ${LOKI_URL} # Loki로 로그 전송
 
 scrape_configs:
   # 1️⃣ 컨테이너 로그 수집 설정
   - job_name: docker-logs
-    pipeline_stages:
-      - docker:
-          container_name: spring_app
-    static_configs:
-      - targets:
-          - localhost
-        labels:
-          job: "spring-logs"
-          __path__: "/var/lib/docker/containers/*/*-json.log"
+    docker_sd_configs:
+      - host: unix:///var/run/docker.sock
+    relabel_configs:
+    - source_labels: [ '__meta_docker_container_name' ]
+      action: keep
+      regex: '.*\/(mysql.*|redis.*|spring.*)'
+    - source_labels: ['__meta_docker_container_name']
+      target_label: 'container_name'
 
   # 2️⃣ 파일 로그 수집 설정
   - job_name: file-logs
