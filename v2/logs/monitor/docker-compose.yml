@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  loki:
+    image: grafana/loki:3.3.2
+    container_name: loki
+    ports:
+      - "3100:3100"
+    environment:
+      - S3_ACCESS_KEY=${S3_ACCESS_KEY}
+      - S3_SECRET_KEY=${S3_SECRET_KEY}
+      - S3_REGION=${S3_REGION}
+      - S3_BUCKET_NAME=${S3_BUCKET_NAME}
+    command:
+      - -config.file=/etc/loki/local-config.yaml
+      - -config.expand-env=true
+    volumes:
+      - ./loki-config.yaml:/etc/loki/local-config.yaml
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}  # 기본 로그인: admin/admin
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - USER_EMAIL=${USER_EMAIL}
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./grafana.ini:/etc/grafana/grafana.ini
+    depends_on:
+      - loki
+
+volumes:
+  grafana-data:
