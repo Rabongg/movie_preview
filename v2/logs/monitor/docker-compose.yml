@@ -16,6 +16,8 @@ services:
       - -config.expand-env=true
     volumes:
       - ./loki-config.yaml:/etc/loki/local-config.yaml
+    networks:
+      - monitoring_network
 
   grafana:
     image: grafana/grafana:latest
@@ -29,8 +31,15 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - ./grafana.ini:/etc/grafana/grafana.ini
+    networks:
+      - monitoring_network
     depends_on:
       - loki
 
 volumes:
   grafana-data:
+
+networks:
+  monitoring_network:
+    name: monitoring_network # promtail에서 같이 쓰기 위해 이름 고정(로컬에서만)
+    driver: bridge

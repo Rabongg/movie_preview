@@ -14,3 +14,9 @@ services:
     command:
       - -config.file=/etc/promtail/promtail-config.yaml
       - -config.expand-env=true
+    networks:
+      - monitoring_network
+
+networks:
+  monitoring_network:
+    external: true  # Loki 쪽에서 만든 네트워크 재사용(통신을 위해서) - LOCAL 전용
