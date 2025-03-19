@@ -39,6 +39,7 @@ services:
 volumes:
   grafana-data:
 
+# local 환경 용
 networks:
   monitoring_network:
     name: monitoring_network # promtail에서 같이 쓰기 위해 이름 고정(로컬에서만)
