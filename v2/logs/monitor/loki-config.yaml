@@ -39,7 +39,7 @@ common:
   storage:
     s3:
       endpoint: s3.${S3_REGION}.amazonaws.com
-      bucketnames: ${S3_BUCKET_NAME}/logs/dev
+      bucketnames: ${S3_BUCKET_NAME}
       region: ${S3_REGION}
       secret_access_key: ${S3_SECRET_KEY}
       access_key_id: ${S3_ACCESS_KEY}
