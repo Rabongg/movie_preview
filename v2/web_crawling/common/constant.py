@@ -6,3 +6,5 @@ LOTTE_CINEMA_URL = 'https://www.lottecinema.co.kr/NLCHS/Event/DetailList?code=40
 CGV_CLASS_TAG='sect-evt-item-list'
 MEGA_BOX_CLASS_TAG='event-list'
 LOTTE_CLASS_TAG='img_lst_wrap'
+
+WEB_DRIVER_WAIT_TIME = 20

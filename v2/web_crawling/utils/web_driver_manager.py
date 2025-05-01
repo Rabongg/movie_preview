@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import os
 import logging
+from common.constant import WEB_DRIVER_WAIT_TIME
 
 class WebDriverManager:
     def __init__(self):
@@ -26,7 +27,7 @@ class WebDriverManager:
 
     def get_element_by_class_name(self, class_name):
         try:
-            element = WebDriverWait(self.driver, 5).until(
+            element = WebDriverWait(self.driver, WEB_DRIVER_WAIT_TIME).until(
                 EC.presence_of_element_located((By.CLASS_NAME, class_name))
             )
             return element
