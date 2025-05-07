@@ -8,6 +8,7 @@ services:
       - LOKI_URL=${LOKI_URL}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /opt/promtail-data:/var/lib/promtail
       - ./promtail-config.yaml:/etc/promtail/promtail-config.yaml
       - /var/lib/docker/volumes/${CRON_LOG_VOLUME}:/var/log:ro  # 파일 로그 수집을 위해 로컬 로그 디렉토리 마운트
       - /var/lib/docker/containers:/var/lib/docker/containers:ro  # 컨테이너 로그 수집

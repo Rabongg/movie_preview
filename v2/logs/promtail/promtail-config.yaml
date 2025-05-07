@@ -2,7 +2,7 @@ server:
   http_listen_port: 9080  # Promtail 내부 포트
 
 positions:
-  filename: /tmp/positions.yaml  # 로그 위치 기억
+  filename: /var/lib/promtail/positions.yaml  # 로그 위치 기억
 
 clients:
   - url: ${LOKI_URL} # Loki로 로그 전송
