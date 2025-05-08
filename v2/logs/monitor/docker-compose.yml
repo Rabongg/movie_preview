@@ -17,6 +17,7 @@ services:
       - -config.expand-env=true
     volumes:
       - ./loki-config.yaml:/etc/loki/local-config.yaml
+      - /tmp/data/loki-compactor:/var/loki/compactor
     networks:
       - monitoring_network
 
