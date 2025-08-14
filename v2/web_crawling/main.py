@@ -24,7 +24,7 @@ def main():
         web_driver = WebDriverManager()
         
         cgv = CGV(Theater.CGV, CGV_URL, CGV_CLASS_TAG)
-        movie_list.extend(cgv.get_movie_info(web_driver))
+        movie_list.extend(cgv.get_movie_info())
         
         mega = MEGA_BOX(Theater.MEGABOX, MEGA_BOX_URL, MEGA_BOX_CLASS_TAG)
         movie_list.extend(mega.get_movie_info(web_driver))
