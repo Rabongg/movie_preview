@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,13 +45,18 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    @Transactional
     public void saveMovieInfoData(List<MovieInfoDto> movieInfDtoList) {
-        List<MovieInfo> movieInfo = movieInfDtoList.stream().map(MovieInfo::new).collect(Collectors.toList());
-
-        movieInfoRepository.saveAll(movieInfo);
+        for (MovieInfoDto dto : movieInfDtoList){
+            try {
+                MovieInfo movieInfo = new MovieInfo(dto);
+                movieInfoRepository.save(movieInfo);
+            } catch (DataIntegrityViolationException e) {
+                log.warn("중복으로 인해 저장 건너뜀: {} - {}", dto.getTitle(), dto.getTheater(), e);
+            }
+            catch (Exception e) {
+                log.error("데이터 저장 중 에러가 발생했습니다.", e);
+            }
+        }
         log.info("데이터 저장 성공");
     }
-
-
 }
