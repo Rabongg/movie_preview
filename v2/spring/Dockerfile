@@ -2,6 +2,7 @@
 FROM eclipse-temurin:17-jdk AS build
 WORKDIR /app
 COPY . .
+RUN chmod +x ./gradlew
 RUN ./gradlew clean build -x test
 
 # 2단계: 실행 컨테이너 (불필요한 파일 제거)
