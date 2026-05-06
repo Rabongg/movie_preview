@@ -1,0 +1,25 @@
+{
+  "result": true,
+  "data": {
+    "list": [
+      {
+        "evntNo": "12345",
+        "evntNm": "[무대인사] 어벤져스: 엔드게임",
+        "evntStartDt": "2025-06-01 00:00:00",
+        "evntEndDt": "2025-06-07 23:59:59",
+        "prtcpntNm": "로버트 다우니 주니어, 크리스 에반스",
+        "cinemaName": "CGV 강남",
+        "mblLnkUrl": "https://m.cgv.co.kr/event/detail?evntNo=12345"
+      },
+      {
+        "evntNo": "67890",
+        "evntNm": "[시사회] 인터스텔라 4DX",
+        "evntStartDt": "2025-06-10 00:00:00",
+        "evntEndDt": "2025-06-10 23:59:59",
+        "prtcpntNm": "",
+        "cinemaName": "CGV 용산아이파크몰",
+        "mblLnkUrl": "https://m.cgv.co.kr/event/detail?evntNo=67890"
+      }
+    ]
+  }
+}
