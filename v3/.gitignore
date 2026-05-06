@@ -1,0 +1,28 @@
+# 환경변수
+.env
+
+# 발송 이력 및 아카이브
+data/
+
+# 로그
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
