@@ -42,19 +42,14 @@ def test_parse_date(html):
     assert "2025.06.01" in events[0].date
 
 
-def test_parse_actors(html):
+def test_parse_actors_empty(html):
     events = LotteCinemaCrawler()._parse(html)
-    assert "로버트 다우니 주니어" in events[0].actors
+    assert events[0].actors == []
 
 
-def test_parse_empty_actors_when_no_actor_tag(html):
+def test_parse_booking_url_empty(html):
     events = LotteCinemaCrawler()._parse(html)
-    assert events[1].actors == []
-
-
-def test_parse_booking_url_contains_id(html):
-    events = LotteCinemaCrawler()._parse(html)
-    assert "11111" in events[0].booking_url
+    assert events[0].booking_url == ""
 
 
 def test_crawl_returns_empty_on_selenium_error(mocker):

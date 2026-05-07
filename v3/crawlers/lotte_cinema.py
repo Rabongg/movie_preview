@@ -31,22 +31,14 @@ class LotteCinemaCrawler(BaseCrawler):
         soup = BeautifulSoup(html, "html.parser")
         events = []
 
-        for li in soup.select(".img_lst_wrap ul li"):
-            a_tag = li.find("a")
-            href = (a_tag.get("href") or "") if a_tag else ""
-            booking_url = (BASE_URL + href) if href and not href.startswith("http") else href
-
+        for li in soup.select(".img_lst_wrap li"):
             img_tag = li.find("img")
             title = (img_tag.get("alt") or "").strip() if img_tag else ""
             if not title:
                 continue
 
-            date_tag = li.select_one(".itm_date")
+            date_tag = li.select_one("div.itm_date")
             date_str = date_tag.get_text(strip=True) if date_tag else ""
-
-            actor_tag = li.select_one(".actor")
-            actors_raw = actor_tag.get_text(strip=True) if actor_tag else ""
-            actors = [a.strip() for a in actors_raw.split(",") if a.strip()]
 
             events.append(Event(
                 theater="LotteCinema",
@@ -54,8 +46,8 @@ class LotteCinemaCrawler(BaseCrawler):
                 title=title,
                 date=date_str,
                 location="",
-                actors=actors,
-                booking_url=booking_url,
+                actors=[],
+                booking_url="",
             ))
         return events
 
