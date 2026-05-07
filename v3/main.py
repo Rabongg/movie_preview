@@ -2,7 +2,6 @@ import logging
 
 from config.logger import setup_logger
 from config.settings import RECEIVER_EMAILS, SENDER_EMAIL, SENDER_KEY
-from crawlers.cgv import CGVCrawler
 from crawlers.lotte_cinema import LotteCinemaCrawler
 from crawlers.megabox import MegaboxCrawler
 from models.event import Event
@@ -18,7 +17,7 @@ def main() -> None:
 
     ArchiveService().run()
 
-    crawlers = [CGVCrawler(), MegaboxCrawler(), LotteCinemaCrawler()]
+    crawlers = [MegaboxCrawler(), LotteCinemaCrawler()]
     all_events: list[Event] = []
     for crawler in crawlers:
         events = crawler.crawl()
