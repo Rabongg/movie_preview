@@ -21,7 +21,7 @@ class MegaboxCrawler(BaseCrawler):
         try:
             driver.get(MEGABOX_URL)
             WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "event-list"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.event-list"))
             )
             return driver.page_source
         finally:
@@ -31,22 +31,17 @@ class MegaboxCrawler(BaseCrawler):
         soup = BeautifulSoup(html, "html.parser")
         events = []
 
-        for li in soup.select("ul.event-list li"):
-            a_tag = li.find("a")
-            href = (a_tag.get("href") or "") if a_tag else ""
-            booking_url = (BASE_URL + href) if href and not href.startswith("http") else href
+        for a_tag in soup.select("a.eventBtn"):
+            data_no = a_tag.get("data-no", "")
+            booking_url = f"{BASE_URL}/event/curtaincall?no={data_no}" if data_no else ""
 
-            title_tag = li.select_one(".tit")
+            title_tag = a_tag.select_one(".tit")
             title = title_tag.get_text(strip=True) if title_tag else ""
             if not title:
                 continue
 
-            date_tag = li.select_one(".date")
+            date_tag = a_tag.select_one(".date")
             date_str = date_tag.get_text(strip=True) if date_tag else ""
-
-            actor_tag = li.select_one(".actor")
-            actors_raw = actor_tag.get_text(strip=True) if actor_tag else ""
-            actors = [a.strip() for a in actors_raw.split(",") if a.strip()]
 
             events.append(Event(
                 theater="Megabox",
@@ -54,7 +49,7 @@ class MegaboxCrawler(BaseCrawler):
                 title=title,
                 date=date_str,
                 location="",
-                actors=actors,
+                actors=[],
                 booking_url=booking_url,
             ))
         return events

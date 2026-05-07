@@ -42,14 +42,9 @@ def test_parse_date(html):
     assert "2025.06.01" in events[0].date
 
 
-def test_parse_actors(html):
+def test_parse_actors_empty(html):
     events = MegaboxCrawler()._parse(html)
-    assert "로버트 다우니 주니어" in events[0].actors
-
-
-def test_parse_empty_actors(html):
-    events = MegaboxCrawler()._parse(html)
-    assert events[1].actors == []
+    assert events[0].actors == []
 
 
 def test_parse_booking_url_contains_id(html):
