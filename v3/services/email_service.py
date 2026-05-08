@@ -1,3 +1,4 @@
+import html as html_module
 import logging
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -63,24 +64,27 @@ class EmailService:
 
     def _render_event(self, event: Event) -> str:
         badge_class = _BADGE_CLASS.get(event.event_type, "badge-other")
+        title = html_module.escape(event.title)
+        theater = html_module.escape(event.theater)
+        date = html_module.escape(event.date)
+        time_part = f" {html_module.escape(event.time)}" if event.time else ""
+        location_part = f" · {html_module.escape(event.location)}" if event.location else ""
 
         actors_html = ""
         if event.actors:
-            actors_html = f'<p class="actors">👥 {", ".join(event.actors)}</p>'
+            escaped_actors = ", ".join(html_module.escape(a) for a in event.actors)
+            actors_html = f'<p class="actors">👥 {escaped_actors}</p>'
 
         booking_html = ""
         if event.booking_url:
-            booking_html = f'<a class="btn" href="{event.booking_url}">예매하기</a>'
-
-        time_part = f" {event.time}" if event.time else ""
-        location_part = f" · {event.location}" if event.location else ""
+            booking_html = f'<a class="btn" href="{html_module.escape(event.booking_url)}">예매하기</a>'
 
         return f"""
         <div class="event-card">
           <span class="badge {badge_class}">{event.event_type}</span>
-          <p class="title">{event.title}</p>
-          <p class="info">📅 {event.date}{time_part}</p>
-          <p class="info">🎭 {event.theater}{location_part}</p>
+          <p class="title">{title}</p>
+          <p class="info">📅 {date}{time_part}</p>
+          <p class="info">🎭 {theater}{location_part}</p>
           {actors_html}
           {booking_html}
         </div>"""

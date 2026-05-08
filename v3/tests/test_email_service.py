@@ -100,3 +100,13 @@ def test_build_html_omits_booking_button_when_no_url(service):
 def test_build_html_shows_event_count(service, events):
     html = service._build_html(events)
     assert "2건" in html
+
+
+def test_build_html_escapes_angle_brackets_in_title(service):
+    event = Event(
+        theater="Megabox", event_type="시사회",
+        title="<리마인더스 오브 힘> 메가박스 회원시사",
+        date="2026-05-09",
+    )
+    html = service._build_html([event])
+    assert "&lt;리마인더스 오브 힘&gt;" in html
