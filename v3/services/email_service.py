@@ -76,15 +76,22 @@ class EmailService:
     def _render_group(self, theater: str, events: list[Event]) -> str:
         color = _THEATER_COLOR.get(theater, "#555555")
         theater_escaped = html_module.escape(theater)
-        cards_html = "".join(self._render_event(e) for e in events)
+
+        # 2열 table 레이아웃 (이메일 클라이언트 호환)
+        rows = ""
+        for i in range(0, len(events), 2):
+            left = self._render_event(events[i])
+            right = self._render_event(events[i + 1]) if i + 1 < len(events) else "<td></td>"
+            rows += f"<tr><td style='padding:4px;vertical-align:top;width:50%;'>{left}</td><td style='padding:4px;vertical-align:top;width:50%;'>{right}</td></tr>"
+
         return f"""
-      <div class="theater-group">
-        <div class="theater-title" style="border-left-color:{color}; color:{color};">🎫 {theater_escaped}</div>
-        <div class="grid">{cards_html}</div>
+      <div style="margin-bottom:24px;">
+        <div style="font-size:13px; font-weight:bold; color:{color}; border-left:3px solid {color}; padding-left:8px; margin-bottom:10px; letter-spacing:0.5px;">🎫 {theater_escaped}</div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
       </div>"""
 
     def _render_event(self, event: Event) -> str:
-        badge_class = _BADGE_CLASS.get(event.event_type, "badge-other")
+        badge_color = {"무대인사": "#c0392b", "커튼콜": "#c0392b", "시사회": "#1a6fa8"}.get(event.event_type, "#7f8c8d")
         title = html_module.escape(event.title)
         date = html_module.escape(event.date)
         time_part = f" {html_module.escape(event.time)}" if event.time else ""
@@ -93,18 +100,16 @@ class EmailService:
         actors_html = ""
         if event.actors:
             escaped_actors = ", ".join(html_module.escape(a) for a in event.actors)
-            actors_html = f'<p class="actors">👥 {escaped_actors}</p>'
+            actors_html = f'<div style="font-size:12px;color:#666;margin-top:6px;">👥 {escaped_actors}</div>'
 
         booking_html = ""
         if event.booking_url:
-            booking_html = f'<a class="btn" href="{html_module.escape(event.booking_url)}">예매하기</a>'
+            booking_html = f'<a href="{html_module.escape(event.booking_url)}" style="display:inline-block;margin-top:10px;padding:6px 14px;background:#1a1a2e;color:white;text-decoration:none;border-radius:6px;font-size:12px;font-weight:bold;">예매하기</a>'
 
-        return f"""
-        <div class="card">
-          <span class="badge {badge_class}">{event.event_type}</span>
-          <p class="title">{title}</p>
-          <p class="info">📅 {date}{time_part}</p>
-          <p class="info">📍 {html_module.escape(event.theater)}{location_part}</p>
+        return f"""<div style="background:white;border-radius:10px;padding:14px;box-shadow:0 1px 6px rgba(0,0,0,0.07);">
+          <span style="display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;color:white;font-weight:bold;background:{badge_color};margin-bottom:8px;">{html_module.escape(event.event_type)}</span>
+          <div style="font-size:13px;font-weight:bold;color:#1a1a2e;line-height:1.4;margin-bottom:6px;">{title}</div>
+          <div style="font-size:12px;color:#666;margin-bottom:2px;">📅 {date}{time_part}</div>
           {actors_html}
           {booking_html}
         </div>"""
