@@ -13,7 +13,7 @@ class BaseCrawler(ABC):
     def _extract_event_type(title: str) -> str:
         if "무대인사" in title:
             return "무대인사"
-        if "시사회" in title:
+        if "시사" in title:
             return "시사회"
         if "커튼콜" in title:
             return "커튼콜"
