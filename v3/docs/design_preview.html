@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이메일 디자인 프리뷰</title>
+  <style>
+    body { font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif; background: #e0e0e0; padding: 40px 20px; color: #333; }
+    h1 { text-align: center; margin-bottom: 8px; font-size: 20px; }
+    .subtitle { text-align: center; color: #666; margin-bottom: 40px; font-size: 14px; }
+    .section { margin-bottom: 60px; }
+    .section-label { text-align: center; font-size: 18px; font-weight: bold; margin-bottom: 6px; color: #222; }
+    .section-desc { text-align: center; font-size: 13px; color: #888; margin-bottom: 20px; }
+    .email-wrap { max-width: 620px; margin: 0 auto; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.13); }
+
+    /* 공통 헤더/푸터 */
+    .header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; padding: 28px 24px; text-align: center; }
+    .header h2 { font-size: 20px; margin: 0 0 6px; }
+    .header p { margin: 0; font-size: 13px; color: #aab4c4; }
+    .footer { background: white; text-align: center; font-size: 12px; color: #aaa; padding: 14px; border-top: 1px solid #f0f0f0; }
+
+    /* ── OPTION A: 현재 (1열) ── */
+    .opt-a .content { background: white; padding: 20px 16px; }
+    .opt-a .theater-group { margin-bottom: 24px; }
+    .opt-a .theater-title { font-size: 13px; font-weight: bold; color: #888; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px; padding-left: 4px; border-left: 3px solid #ccc; padding-left: 8px; }
+    .opt-a .card { border: 1px solid #e8e8e8; border-radius: 10px; padding: 16px; margin-bottom: 10px; }
+    .opt-a .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; color: white; font-weight: bold; margin-bottom: 8px; }
+    .opt-a .badge-stage { background: #e74c3c; }
+    .opt-a .badge-preview { background: #3498db; }
+    .opt-a .card-title { font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #1a1a2e; }
+    .opt-a .card-info { font-size: 13px; color: #666; margin-bottom: 3px; }
+    .opt-a .btn { display: inline-block; margin-top: 10px; padding: 7px 18px; background: #e74c3c; color: white; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; }
+
+    /* ── OPTION B: 2열 그리드 ── */
+    .opt-b .content { background: white; padding: 20px 16px; }
+    .opt-b .theater-group { margin-bottom: 24px; }
+    .opt-b .theater-title { font-size: 13px; font-weight: bold; color: #888; letter-spacing: 1px; margin-bottom: 10px; padding-left: 8px; border-left: 3px solid #ccc; }
+    .opt-b .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .opt-b .card { border: 1px solid #e8e8e8; border-radius: 10px; padding: 14px; }
+    .opt-b .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; color: white; font-weight: bold; margin-bottom: 6px; }
+    .opt-b .badge-stage { background: #e74c3c; }
+    .opt-b .badge-preview { background: #3498db; }
+    .opt-b .card-title { font-size: 13px; font-weight: bold; margin-bottom: 6px; color: #1a1a2e; line-height: 1.4; }
+    .opt-b .card-info { font-size: 12px; color: #666; margin-bottom: 2px; }
+    .opt-b .btn { display: inline-block; margin-top: 8px; padding: 6px 14px; background: #e74c3c; color: white; text-decoration: none; border-radius: 6px; font-size: 12px; font-weight: bold; }
+
+    /* ── OPTION C: 2열 + 버튼/색상 개선 ── */
+    .opt-c .content { background: #fafafa; padding: 20px 16px; }
+    .opt-c .theater-group { margin-bottom: 24px; }
+    .opt-c .theater-title-megabox { font-size: 13px; font-weight: bold; color: #3f51b5; letter-spacing: 1px; margin-bottom: 10px; padding-left: 8px; border-left: 3px solid #3f51b5; }
+    .opt-c .theater-title-lotte { font-size: 13px; font-weight: bold; color: #e65100; letter-spacing: 1px; margin-bottom: 10px; padding-left: 8px; border-left: 3px solid #e65100; }
+    .opt-c .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .opt-c .card { background: white; border: none; border-radius: 10px; padding: 14px; box-shadow: 0 1px 6px rgba(0,0,0,0.07); }
+    .opt-c .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; color: white; font-weight: bold; margin-bottom: 6px; }
+    .opt-c .badge-stage { background: #c0392b; }
+    .opt-c .badge-preview { background: #2471a3; }
+    .opt-c .card-title { font-size: 13px; font-weight: bold; margin-bottom: 6px; color: #1a1a2e; line-height: 1.4; }
+    .opt-c .card-info { font-size: 12px; color: #666; margin-bottom: 2px; }
+    .opt-c .btn-megabox { display: inline-block; margin-top: 8px; padding: 6px 14px; background: #3f51b5; color: white; text-decoration: none; border-radius: 6px; font-size: 12px; font-weight: bold; }
+    .opt-c .btn-lotte { display: inline-block; margin-top: 8px; padding: 6px 14px; background: #e65100; color: white; text-decoration: none; border-radius: 6px; font-size: 12px; font-weight: bold; }
+
+    /* ── OPTION D: 2열 + 다크 버튼 ── */
+    .opt-d .content { background: #fafafa; padding: 20px 16px; }
+    .opt-d .theater-group { margin-bottom: 24px; }
+    .opt-d .theater-title { font-size: 13px; font-weight: bold; color: #555; letter-spacing: 1px; margin-bottom: 10px; padding-left: 8px; border-left: 3px solid #555; }
+    .opt-d .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .opt-d .card { background: white; border: none; border-radius: 10px; padding: 14px; box-shadow: 0 1px 6px rgba(0,0,0,0.07); }
+    .opt-d .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; color: white; font-weight: bold; margin-bottom: 6px; }
+    .opt-d .badge-stage { background: #c0392b; }
+    .opt-d .badge-preview { background: #1a6fa8; }
+    .opt-d .card-title { font-size: 13px; font-weight: bold; margin-bottom: 6px; color: #1a1a2e; line-height: 1.4; }
+    .opt-d .card-info { font-size: 12px; color: #666; margin-bottom: 2px; }
+    .opt-d .btn { display: inline-block; margin-top: 8px; padding: 6px 14px; background: #1a1a2e; color: white; text-decoration: none; border-radius: 6px; font-size: 12px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<h1>이메일 디자인 프리뷰</h1>
+<p class="subtitle">원하는 스타일 골라주시면 반영합니다</p>
+
+<!-- ── OPTION A: 현재 (극장별 그룹, 1열) ── -->
+<div class="section">
+  <div class="section-label">Option A — 현재 + 극장별 그룹 (1열)</div>
+  <div class="section-desc">레이아웃은 그대로, 극장별로 묶기만 함</div>
+  <div class="email-wrap opt-a">
+    <div class="header">
+      <h2>🎬 영화 무대인사/시사회 알림</h2>
+      <p>새로운 행사 3건이 등록되었습니다</p>
+    </div>
+    <div class="content">
+      <div class="theater-group">
+        <div class="theater-title">🎫 Megabox</div>
+        <div class="card">
+          <span class="badge badge-stage">무대인사</span>
+          <div class="card-title">&lt;리마인더스 오브 힘&gt; 메가박스 회원시사</div>
+          <div class="card-info">📅 2026.05.04 ~ 2026.05.17</div>
+          <a class="btn" href="#">예매하기</a>
+        </div>
+        <div class="card">
+          <span class="badge badge-preview">시사회</span>
+          <div class="card-title">&lt;파과&gt; 메가박스 회원시사</div>
+          <div class="card-info">📅 2026.05.10 ~ 2026.05.10</div>
+          <a class="btn" href="#">예매하기</a>
+        </div>
+      </div>
+      <div class="theater-group">
+        <div class="theater-title">🎫 Lotte Cinema</div>
+        <div class="card">
+          <span class="badge badge-stage">무대인사</span>
+          <div class="card-title">&lt;군체&gt; 개봉주말 무대인사</div>
+          <div class="card-info">📅 2026.05.23 ~ 2026.05.23</div>
+          <a class="btn" href="#">예매하기</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Movie Preview Alarm v3 · 자동 발송된 메일입니다</div>
+  </div>
+</div>
+
+<!-- ── OPTION B: 2열 그리드 (버튼 색 동일) ── -->
+<div class="section">
+  <div class="section-label">Option B — 극장별 그룹 + 2열 그리드</div>
+  <div class="section-desc">카드를 2열로 나란히 배치, 버튼 색은 그대로</div>
+  <div class="email-wrap opt-b">
+    <div class="header">
+      <h2>🎬 영화 무대인사/시사회 알림</h2>
+      <p>새로운 행사 3건이 등록되었습니다</p>
+    </div>
+    <div class="content">
+      <div class="theater-group">
+        <div class="theater-title">🎫 Megabox</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;리마인더스 오브 힘&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.04 ~ 2026.05.17</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+          <div class="card">
+            <span class="badge badge-preview">시사회</span>
+            <div class="card-title">&lt;파과&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.10 ~ 2026.05.10</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="theater-group">
+        <div class="theater-title">🎫 Lotte Cinema</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;군체&gt; 개봉주말 무대인사</div>
+            <div class="card-info">📅 2026.05.23 ~ 2026.05.23</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Movie Preview Alarm v3 · 자동 발송된 메일입니다</div>
+  </div>
+</div>
+
+<!-- ── OPTION C: 2열 + 극장별 색상 버튼 ── -->
+<div class="section">
+  <div class="section-label">Option C — 2열 그리드 + 극장별 색상</div>
+  <div class="section-desc">Megabox 남색 / Lotte 주황, 카드 그림자 추가</div>
+  <div class="email-wrap opt-c">
+    <div class="header">
+      <h2>🎬 영화 무대인사/시사회 알림</h2>
+      <p>새로운 행사 3건이 등록되었습니다</p>
+    </div>
+    <div class="content">
+      <div class="theater-group">
+        <div class="theater-title-megabox">🎫 Megabox</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;리마인더스 오브 힘&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.04 ~ 2026.05.17</div>
+            <a class="btn-megabox" href="#">예매하기</a>
+          </div>
+          <div class="card">
+            <span class="badge badge-preview">시사회</span>
+            <div class="card-title">&lt;파과&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.10 ~ 2026.05.10</div>
+            <a class="btn-megabox" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="theater-group">
+        <div class="theater-title-lotte">🎫 Lotte Cinema</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;군체&gt; 개봉주말 무대인사</div>
+            <div class="card-info">📅 2026.05.23 ~ 2026.05.23</div>
+            <a class="btn-lotte" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Movie Preview Alarm v3 · 자동 발송된 메일입니다</div>
+  </div>
+</div>
+
+<!-- ── OPTION D: 2열 + 다크 버튼 ── -->
+<div class="section">
+  <div class="section-label">Option D — 2열 그리드 + 다크 버튼</div>
+  <div class="section-desc">버튼을 네이비 다크 계열로 통일, 뱃지 모서리 각짐</div>
+  <div class="email-wrap opt-d">
+    <div class="header">
+      <h2>🎬 영화 무대인사/시사회 알림</h2>
+      <p>새로운 행사 3건이 등록되었습니다</p>
+    </div>
+    <div class="content">
+      <div class="theater-group">
+        <div class="theater-title">🎫 Megabox</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;리마인더스 오브 힘&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.04 ~ 2026.05.17</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+          <div class="card">
+            <span class="badge badge-preview">시사회</span>
+            <div class="card-title">&lt;파과&gt; 메가박스 회원시사</div>
+            <div class="card-info">📅 2026.05.10 ~ 2026.05.10</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+      <div class="theater-group">
+        <div class="theater-title">🎫 Lotte Cinema</div>
+        <div class="grid">
+          <div class="card">
+            <span class="badge badge-stage">무대인사</span>
+            <div class="card-title">&lt;군체&gt; 개봉주말 무대인사</div>
+            <div class="card-info">📅 2026.05.23 ~ 2026.05.23</div>
+            <a class="btn" href="#">예매하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Movie Preview Alarm v3 · 자동 발송된 메일입니다</div>
+  </div>
+</div>
+
+</body>
+</html>
