@@ -4,18 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>영화 무대인사/시사회 알림</title>
+  <style>
+    @media only screen and (max-width: 600px) {
+      .container { width: 100% !important; padding: 0 !important; }
+      .header-title { font-size: 18px !important; }
+      .header-sub { font-size: 12px !important; }
+      .body-wrap { padding: 14px 10px !important; }
+      .card-table td { display: block !important; width: 100% !important; box-sizing: border-box; }
+    }
+  </style>
 </head>
 <body style="margin:0; padding:20px; background:#f0f0f0; font-family:'Apple SD Gothic Neo','Malgun Gothic',Arial,sans-serif; color:#333;">
   <div style="max-width:600px; margin:0 auto;">
 
     <!-- 헤더 -->
-    <div style="background:linear-gradient(135deg,#1a1a2e,#16213e); color:white; padding:28px 24px; text-align:center; border-radius:12px 12px 0 0;">
-      <div style="font-size:22px; font-weight:bold; letter-spacing:-0.5px;">🎬 영화 무대인사/시사회 알림</div>
-      <div style="margin-top:6px; font-size:13px; color:#aab4c4;">새로운 행사 {{count}}건이 등록되었습니다</div>
-    </div>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1a1a2e" style="background:linear-gradient(135deg,#1a1a2e,#16213e); border-radius:12px 12px 0 0;">
+      <tr>
+        <td style="padding:28px 24px; text-align:center;">
+          <div class="header-title" style="font-size:22px; font-weight:bold; letter-spacing:-0.5px; color:#ffffff;">🎬 영화 무대인사/시사회 알림</div>
+          <div class="header-sub" style="margin-top:6px; font-size:13px; color:#aab4c4;">새로운 행사 {{count}}건이 등록되었습니다</div>
+        </td>
+      </tr>
+    </table>
 
     <!-- 본문 -->
-    <div style="background:#fafafa; padding:20px 16px; border-radius:0 0 12px 12px;">
+    <div class="body-wrap" style="background:#fafafa; padding:20px 16px; border-radius:0 0 12px 12px;">
       {{events}}
     </div>
 

@@ -87,7 +87,7 @@ class EmailService:
         return f"""
       <div style="margin-bottom:24px;">
         <div style="font-size:13px; font-weight:bold; color:{color}; border-left:3px solid {color}; padding-left:8px; margin-bottom:10px; letter-spacing:0.5px;">🎫 {theater_escaped}</div>
-        <table width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
+        <table class="card-table" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
       </div>"""
 
     def _render_event(self, event: Event) -> str:
