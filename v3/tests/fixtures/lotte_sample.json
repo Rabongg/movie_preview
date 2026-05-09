@@ -1,0 +1,19 @@
+{
+  "IsOK": "true",
+  "Items": [
+    {
+      "EventID": "401070011111111",
+      "EventName": "<무대인사> 어벤져스: 엔드게임",
+      "EventTypeName": "무대인사",
+      "ProgressStartDate": "2025.06.01",
+      "ProgressEndDate": "2025.06.07"
+    },
+    {
+      "EventID": "401080022222222",
+      "EventName": "<시사회> 인터스텔라",
+      "EventTypeName": "시사회",
+      "ProgressStartDate": "2025.06.10",
+      "ProgressEndDate": "2025.06.10"
+    }
+  ]
+}
