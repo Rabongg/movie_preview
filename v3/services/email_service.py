@@ -58,6 +58,26 @@ class EmailService:
             logger.error(f"이메일 발송 실패: {e}")
             return False
 
+    def send_alert(self, crawler_name: str, consecutive_zeros: int) -> bool:
+        msg = MIMEMultipart("alternative")
+        msg["From"] = self.sender_email
+        msg["To"] = ", ".join(self.receiver_emails)
+        msg["Subject"] = f"[크롤러 이상] {crawler_name} {consecutive_zeros}회 연속 0건"
+        body = (
+            f"<p><b>{crawler_name}</b>이 {consecutive_zeros}회 연속으로 0건을 반환했습니다.</p>"
+            f"<p>사이트 구조 변경 여부를 확인해 주세요.</p>"
+        )
+        msg.attach(MIMEText(body, "html", "utf-8"))
+        try:
+            with smtplib.SMTP_SSL(self.SMTP_SERVER, self.SMTP_PORT) as server:
+                server.login(self.sender_email, self.sender_key)
+                server.sendmail(self.sender_email, self.receiver_emails, msg.as_string())
+            logger.warning(f"크롤러 이상 알림 발송: {crawler_name} {consecutive_zeros}회 연속 0건")
+            return True
+        except Exception as e:
+            logger.error(f"크롤러 이상 알림 발송 실패: {e}")
+            return False
+
     def _build_html(self, events: list[Event]) -> str:
         template = _TEMPLATE_PATH.read_text(encoding="utf-8")
 

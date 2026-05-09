@@ -110,3 +110,31 @@ def test_build_html_escapes_angle_brackets_in_title(service):
     )
     html = service._build_html([event])
     assert "&lt;리마인더스 오브 힘&gt;" in html
+
+
+def test_send_alert_calls_smtp(service):
+    with patch("smtplib.SMTP_SSL") as mock_smtp:
+        mock_server = MagicMock()
+        mock_smtp.return_value.__enter__.return_value = mock_server
+        service.send_alert("MegaboxCrawler", consecutive_zeros=5)
+
+    mock_server.sendmail.assert_called_once()
+
+
+def test_send_alert_subject_contains_crawler_name(service):
+    import email as email_module
+    from email.header import decode_header
+
+    with patch("smtplib.SMTP_SSL") as mock_smtp:
+        mock_server = MagicMock()
+        mock_smtp.return_value.__enter__.return_value = mock_server
+        service.send_alert("MegaboxCrawler", consecutive_zeros=5)
+
+    raw = mock_server.sendmail.call_args[0][2]
+    msg = email_module.message_from_string(raw)
+    subject_parts = decode_header(msg["Subject"])
+    subject = "".join(
+        part.decode(enc or "utf-8") if isinstance(part, bytes) else part
+        for part, enc in subject_parts
+    )
+    assert "MegaboxCrawler" in subject
