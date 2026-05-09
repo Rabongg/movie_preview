@@ -132,6 +132,14 @@ pytest
 pytest --cov=. --cov-report=term-missing --ignore=.venv
 ```
 
+## 📊 실행 결과
+
+코드를 실행하면 다음과 같이 이메일을 전송받게 됩니다.
+
+<p align="center">
+  <img src="../assets/v3/email.png" alt="Email Example" width="600"/>
+</p>
+
 ## ⚠️ 주의사항
 
 - `.env`, `logs/`, `data/` 디렉토리는 gitignore에 포함되어 있으며 커밋하지 않습니다.
