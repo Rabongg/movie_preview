@@ -47,9 +47,9 @@ def test_parse_actors_empty(html):
     assert events[0].actors == []
 
 
-def test_parse_booking_url_contains_id(html):
+def test_parse_booking_url_format(html):
     events = MegaboxCrawler()._parse(html)
-    assert "11111" in events[0].booking_url
+    assert "eventNo=11111" in events[0].booking_url
 
 
 def test_crawl_returns_empty_on_selenium_error(mocker):

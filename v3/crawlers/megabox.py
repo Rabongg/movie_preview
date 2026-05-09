@@ -33,7 +33,7 @@ class MegaboxCrawler(BaseCrawler):
 
         for a_tag in soup.select("a.eventBtn"):
             data_no = a_tag.get("data-no", "")
-            booking_url = f"{BASE_URL}/event/curtaincall?no={data_no}" if data_no else ""
+            booking_url = f"{BASE_URL}/event/detail?eventNo={data_no}" if data_no else ""
 
             title_tag = a_tag.select_one(".tit")
             title = title_tag.get_text(strip=True) if title_tag else ""
