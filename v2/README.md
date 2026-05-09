@@ -107,6 +107,44 @@ Docker가 설치되었다는 가정 하에 실행합니다.
 5. **데이터를 MySQL에 저장**  
     데이터를 MySQL 데이터베이스에 저장합니다. 데이터를 `movie_curtain_call_info` 테이블에 넣어 관리합니다.
 
+## ☁️ 배포 구조
+
+서비스는 AWS EC2 인스턴스 두 개에 Docker Compose 기반으로 배포되어 있습니다.
+
+```mermaid
+graph TB
+    SITES["🎬 CGV / Megabox / Lotte Cinema"]
+
+    subgraph EC2_1["☁️ EC2-1  (서비스 서버)"]
+        PY["🐍 Python Crawler"]
+        SB["🍃 Spring Boot"]
+        RD[("Redis")]
+        MY[("MySQL")]
+        PT["Promtail"]
+    end
+
+    subgraph EC2_2["☁️ EC2-2  (모니터링 서버)"]
+        LK["Loki"]
+        GF["📊 Grafana"]
+    end
+
+    EMAIL["📧 수신자 이메일"]
+
+    SITES -->|크롤링| PY
+    PY -->|Pub| RD
+    RD -->|Sub| SB
+    SB -->|저장| MY
+    SB -->|이메일 발송| EMAIL
+
+    PY & SB -->|로그| PT
+    PT -->|전송| LK
+    LK --> GF
+    GF -->|오류 알림| EMAIL
+```
+
+- **EC2-1**: Python 크롤러, Spring Boot, Redis, MySQL, Promtail (로그 수집기)
+- **EC2-2**: Loki (로그 저장), Grafana (로그 시각화 및 오류 알림)
+
 ## 📊 실행 결과
 
 코드를 실행시키면 다음과 같이 이메일을 전송받게 됩니다.
