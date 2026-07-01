@@ -92,6 +92,21 @@ git commit -m "[v3] [add] StorageService with JSON read/write/filter"
 git commit -m "[v3] [fix] CGV date parsing for same-day events"
 ```
 
+## 실행
+
+```bash
+# 전체 실행 (크롤링 + 이메일 발송)
+# ⚠️ 신규 이벤트가 있으면 .env의 RECEIVER_EMAILS로 실제 메일이 발송됨 (되돌릴 수 없음)
+python main.py
+
+# 크롤링만 확인 (이메일 발송 없음) — 개별 크롤러를 직접 실행해 수집 건수만 확인
+python -c "from crawlers.megabox import MegaboxCrawler; print(len(MegaboxCrawler().crawl()))"
+python -c "from crawlers.lotte_cinema import LotteCinemaCrawler; print(len(LotteCinemaCrawler().crawl()))"
+```
+
+- `python main.py`는 아카이브 → 크롤링 → 중복 필터 → 이메일 발송 → JSON 저장 전 과정을 실행한다.
+- 크롤러 동작만 검증하고 싶을 때는 메일 발송이 없는 개별 크롤러 실행을 사용한다.
+
 ## 테스트 실행
 
 ```bash
