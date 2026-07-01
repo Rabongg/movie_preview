@@ -20,6 +20,7 @@ PARAM = {
     "PageNo": 1,
     "PageSize": 30,
     "MemberNo": "0",
+    "sortDivCd": "1",
 }
 
 
