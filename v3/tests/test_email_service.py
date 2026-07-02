@@ -112,6 +112,16 @@ def test_build_html_escapes_angle_brackets_in_title(service):
     assert "&lt;리마인더스 오브 힘&gt;" in html
 
 
+def test_build_html_theater_header_links_to_site(service):
+    events = [
+        Event(theater="Megabox", event_type="시사회", title="영화M", date="2025-06-01"),
+        Event(theater="LotteCinema", event_type="무대인사", title="영화L", date="2025-06-02"),
+    ]
+    html = service._build_html(events)
+    assert 'href="https://megabox.co.kr/event/curtaincall"' in html
+    assert 'href="https://www.lottecinema.co.kr/NLCHS/Event/DetailList?code=40"' in html
+
+
 def test_send_alert_calls_smtp(service):
     with patch("smtplib.SMTP_SSL") as mock_smtp:
         mock_server = MagicMock()

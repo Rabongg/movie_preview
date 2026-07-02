@@ -19,6 +19,11 @@ _THEATER_COLOR = {
     "LotteCinema": "#e65100",
     "CGV": "#e74c3c",
 }
+_THEATER_SITE = {
+    "Megabox": "https://megabox.co.kr/event/curtaincall",
+    "LotteCinema": "https://www.lottecinema.co.kr/NLCHS/Event/DetailList?code=40",
+    "CGV": "https://m.cgv.co.kr/event",
+}
 _TEMPLATE_PATH = Path(__file__).parent.parent / "templates" / "email_template.html"
 
 
@@ -95,7 +100,13 @@ class EmailService:
 
     def _render_group(self, theater: str, events: list[Event]) -> str:
         color = _THEATER_COLOR.get(theater, "#555555")
+        site = _THEATER_SITE.get(theater)
         theater_escaped = html_module.escape(theater)
+        header_label = (
+            f'<a href="{html_module.escape(site)}" style="color:{color}; text-decoration:none;">🎫 {theater_escaped}</a>'
+            if site
+            else f"🎫 {theater_escaped}"
+        )
 
         # 2열 table 레이아웃 (이메일 클라이언트 호환)
         rows = ""
@@ -106,7 +117,7 @@ class EmailService:
 
         return f"""
       <div style="margin-bottom:24px;">
-        <div style="font-size:13px; font-weight:bold; color:{color}; border-left:3px solid {color}; padding-left:8px; margin-bottom:10px; letter-spacing:0.5px;">🎫 {theater_escaped}</div>
+        <div style="font-size:13px; font-weight:bold; color:{color}; border-left:3px solid {color}; padding-left:8px; margin-bottom:10px; letter-spacing:0.5px;">{header_label}</div>
         <table class="card-table" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
       </div>"""
 
