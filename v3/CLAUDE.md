@@ -3,14 +3,14 @@
 ## 프로젝트 개요
 
 CGV, Megabox, Lotte Cinema의 무대인사/시사회 정보를 크롤링하여 하루 2회 이메일로 알림 발송하는 Python 서비스.
-DB 없이 JSON 파일로 발송 이력을 관리하며, 로컬 cron으로 실행한다.
+DB 없이 JSON 파일로 발송 이력을 관리하며, GitHub Actions cron으로 하루 2회 실행한다.
 
 ## 기술 스택
 
 - **언어**: Python 3.11+
 - **크롤링**: Selenium + BeautifulSoup (사이트에 따라 선택)
 - **이메일**: Gmail SMTP SSL (smtplib)
-- **스케줄**: 로컬 crontab (macOS) / Task Scheduler (Windows)
+- **스케줄**: GitHub Actions cron (`.github/workflows/movie-preview.yml`, 09:00 / 15:00 KST)
 - **저장**: JSON 파일 (`data/sent_events.json`)
 - **아카이브**: 월별 zip 압축 (`data/archive/`), 2개월 초과 자동 삭제
 - **로깅**: Python logging + RotatingFileHandler (`logs/app.log`)
@@ -53,7 +53,7 @@ v3/
 │   ├── test_lotte_cinema.py
 │   └── test_main.py
 ├── logs/                           # 자동 생성 (gitignore)
-└── data/                           # 자동 생성 (gitignore)
+└── data/                           # 상태 파일 (git 추적, Actions가 commit-back)
     ├── sent_events.json
     └── archive/
 ```
@@ -132,7 +132,8 @@ SEND_HOUR_AFTERNOON=15
 
 ## 주의사항
 
-- `.env`, `logs/`, `data/`는 절대 커밋하지 않음 (`.gitignore`에 포함)
+- `.env`, `logs/`는 절대 커밋하지 않음 (`.gitignore`에 포함)
+- `data/`는 발송 이력 상태 파일로 git 추적하며, GitHub Actions가 실행 후 자동 커밋(commit-back)한다
 - `.env` 파일 내 값(이메일, 비밀번호 등)은 로그, 출력, 커밋 메시지에 절대 포함하지 않음
 - Gmail 앱 비밀번호 사용 (Gmail 설정 → 2단계 인증 → 앱 비밀번호)
 - Selenium 사용 시 headless 모드로 실행

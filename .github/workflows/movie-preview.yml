@@ -1,0 +1,47 @@
+name: movie-preview-alarm
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 09:00 KST
+    - cron: '0 6 * * *'   # 15:00 KST
+  workflow_dispatch: {}    # 수동 실행 (테스트용)
+
+permissions:
+  contents: write          # commit-back에 필요
+
+concurrency:
+  group: movie-preview     # 회차 겹침 방지
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul       # date.today()/datetime.now()를 KST로 → 로컬과 동일 동작
+    defaults:
+      run:
+        working-directory: v3   # 코드가 상대경로(data/...) 사용 → v3에서 실행
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run alarm
+        env:
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_KEY: ${{ secrets.SENDER_KEY }}
+          RECEIVER_EMAILS: ${{ secrets.RECEIVER_EMAILS }}
+        run: python main.py
+
+      - name: Commit state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "[v3] [chore] update sent history $(date +%F_%H%M)"
+          git push
