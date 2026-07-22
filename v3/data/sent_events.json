@@ -471,6 +471,62 @@
       "date": "2026.07.31",
       "event_type": "무대인사",
       "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "ee6ea22b440902ffdf6d27658579b58b",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉 전 무대인사",
+      "theater": "Megabox",
+      "date": "2026.08.02 ~ 2026.08.02",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "5d6ddfce2184ca5b29a0c017292f9043",
+      "title": "<구제역에서 살아 돌아온 돼지> 경기인디시네마관 무료시사회 이벤트",
+      "theater": "LotteCinema",
+      "date": "2026.07.21 ~ 2026.07.28",
+      "event_type": "시사회",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "03c3eb9484cdc30237ab3ab9ee42473b",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉 전 무대인사 만나핑 ♥",
+      "theater": "LotteCinema",
+      "date": "2026.07.21 ~ 2026.08.02",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "9b78e75f8712ec8b97e18ca0b31bc278",
+      "title": "<오케이 마담2> 회원시사회",
+      "theater": "LotteCinema",
+      "date": "2026.07.21 ~ 2026.08.02",
+      "event_type": "시사회",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "f22e8d327c9d99c596e2adab2d952472",
+      "title": "<군체> 엽서 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "dcb56bbcc4abaa6abcd24fc92d0bfcf2",
+      "title": "<마티 슈프림> 스페셜 굿즈 패키지 - 티셔츠",
+      "theater": "LotteCinema",
+      "date": "2026.07.26",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-22T23:07:03"
+    },
+    {
+      "id": "d22c6a748f9be4e3a3c4c826694af05b",
+      "title": "<드림 애니멀즈: 더무비> 개봉주 & 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.25 ~ 2026.08.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-22T23:07:03"
     }
   ]
 }
