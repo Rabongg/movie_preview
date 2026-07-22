@@ -1,0 +1,476 @@
+{
+  "sent": [
+    {
+      "id": "192f81f5a34a176123881d54d2dc97c0",
+      "title": "<그림자 아이> 개봉 기념 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.05 ~ 2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T22:54:36"
+    },
+    {
+      "id": "f40a8b3136f854972810ed1f12e8fb96",
+      "title": "<눈동자> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.05 ~ 2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T22:54:36"
+    },
+    {
+      "id": "11ac8ca9811549a6758f96522dd0f3ef",
+      "title": "2026 독립 예술영화 상영 프로그램 7월 스페셜 GV",
+      "theater": "Megabox",
+      "date": "2026.07.01 ~ 2026.07.21",
+      "event_type": "기타",
+      "sent_at": "2026-07-01T22:54:36"
+    },
+    {
+      "id": "db1ff293f61237a5bba863ea1d560dbb",
+      "title": "<슈퍼걸> 롯또스페셜-가챠 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.06.29 ~ 2026.07.02",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "8f3684d5e27443db45d0c3d16321593e",
+      "title": "<마티 슈프림> 롯또 스페셜 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.04",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "ae8093cbc1dfd16d4ea97fff56201e43",
+      "title": "롯또 스페셜 상영회 <토이 스토리 5>",
+      "theater": "LotteCinema",
+      "date": "2026.07.02",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "3b5bea82d49c10e4bf255002587434cf",
+      "title": "<다윗> 개봉 전 GV 시사회",
+      "theater": "LotteCinema",
+      "date": "2026.07.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "8209ff2a2d989c56d9f50d7281ec2d7c",
+      "title": "7월 독립예술영화 GV",
+      "theater": "LotteCinema",
+      "date": "2026.06.29 ~ 2026.07.28",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "da1bad66c8e376babb30f5668ba83a60",
+      "title": "<토이 스토리 5> 토이 프렌즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.02 ~ 2026.07.03",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "c0753bd5f92d40a407c2d454a03799f9",
+      "title": "<군체> 창욱아 현석해 생일 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "961b54048ffac7172a4ad9daae0422b6",
+      "title": "<마티 슈프림> 스페셜 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "89adc36cd370a2eaac477d052937005f",
+      "title": "<호컴> 얼리 체크인 시사회",
+      "theater": "LotteCinema",
+      "date": "2026.06.26 ~ 2026.07.06",
+      "event_type": "시사회",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "f5a11f3b5adb4ae53cfd23539023b4c8",
+      "title": "<너만 보이는 날> 찰Duck빵 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.02",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "c74299f77f7c5643349b8901048d6b8c",
+      "title": "<너만 보이는 날> 로맨틱 스페셜 포스터 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "167c43600ea63c47cfe6964a87480d31",
+      "title": "<하나 코리아> 무대인사 & GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "963457d283a7db16797d466459fb41b8",
+      "title": "<눈동자> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "b34e6dd8e0a4bb3ff58e8abeef3fc8ed",
+      "title": "<하나 코리아> 무대인사 & GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "b4da6b7a98fb8e276b95028a7d188119",
+      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.01 ~ 2026.07.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "78118ddc89b071f7fc3d2f1a215ce04c",
+      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.11 ~ 2026.07.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "d4a070d98b391c4a2d5518acf6393c7c",
+      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.18 ~ 2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-01T23:17:11"
+    },
+    {
+      "id": "601a6252145a5a187893068e3f58b858",
+      "title": "<호프> 개봉3주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.29 ~ 2026.08.02",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "1d54d82dd0183a0fef02dd4a78f33ab4",
+      "title": "<호프> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.25 ~ 2026.07.26",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "f719501811b4b415f8502c4a1e2b50d9",
+      "title": "<호프> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.15 ~ 2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "87df484eeccf4c64608a5d645fc2a1f6",
+      "title": "<호프> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.30 ~ 2026.08.02",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "ba3054721f85029a2f872183a669f35a",
+      "title": "우디를 부탁해 <토이스토리> 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "362827700e0954f7c38d290c77dc61b6",
+      "title": "<토이스토리5> 토이 프렌즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.09 ~ 2026.07.10",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "09a71956110e11708937d778c6c522d5",
+      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 티저 PET포스터 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.11",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "7564c1880973815acf20ff3dc8d3d39d",
+      "title": "<지구 최후의 여자> 경기인디시네마 시사회 및 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.03 ~ 2026.07.12",
+      "event_type": "시사회",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "45b546d7ce952f6e5c99d921d83ce7c3",
+      "title": "<호프> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.15 ~ 2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "d3dd30d4176d392518033d48be9b55dc",
+      "title": "<호프> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.25 ~ 2026.07.26",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "a67540e1820542b6d03167aca527f7ff",
+      "title": "<다윗> 개봉 전 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.02 ~ 2026.07.05",
+      "event_type": "버튼형",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "79c34e8bf27937967fe9147badecae66",
+      "title": "<마티 슈프림> DREAM BIG 뱃지 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.11",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-05T15:00:10"
+    },
+    {
+      "id": "3a23654f20cda1909aaecbede16453cb",
+      "title": "<드림 애니멀즈: 더무비> 프리미어 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.19 ~ 2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "3628bfb23e451e0f61e5311c79738d48",
+      "title": "<미니언즈&몬스터즈> 미니언즈 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.16 ~ 2026.07.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "f485988c4df52b38cc3fa28b094ea9ad",
+      "title": "<눈동자> 개봉3주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.12 ~ 2026.07.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "6084ef14dee8629eb181a0175a15cf99",
+      "title": "<호프> 개봉 전야 특급 시사회",
+      "theater": "LotteCinema",
+      "date": "2026.07.10 ~ 2026.07.14",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "62337ee04f40a7ed12d201313b5153c1",
+      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 스페셜 포스터 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "9a420392cd2b2e4bdf4ef1b5ac990c83",
+      "title": "<호프> 개봉 전야 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.14",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "ecbedcb5082c9cfa9f15bf64984a75f4",
+      "title": "<마티 슈프림> 스페셜 굿즈 패키지 - 티셔츠",
+      "theater": "LotteCinema",
+      "date": "2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "bfbfc35e2c535aa5c60c70883271051b",
+      "title": "<산양들> 경기인디시네마관 무료시사회",
+      "theater": "LotteCinema",
+      "date": "2026.07.09 ~ 2026.07.21",
+      "event_type": "시사회",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "5ffa73e9062bfa4e2691996d1bc166f6",
+      "title": "<소영의 노력> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "c71f45c8834bc8cb048157fc08309b0e",
+      "title": "<호프> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.23 ~ 2026.07.26",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "db7448849c3f01b34cbf1db165557021",
+      "title": "<눈동자> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.11 ~ 2026.07.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "b6c83ced203a7b546cce99b49d9112fc",
+      "title": "<다윗> 2차 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.14",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "c0be51eca84364bfd53d02f38ca08069",
+      "title": "<소영의 노력> 경기인디시네마 경기도민 무료시사회",
+      "theater": "LotteCinema",
+      "date": "2026.07.07 ~ 2026.07.12",
+      "event_type": "시사회",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "aa3f4811b638cca178f02c4e4a126583",
+      "title": "<드림 애니멀즈: 더무비> 개봉 전 인형탈 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "c3a40da727848da3f1e6dd751f05c824",
+      "title": "<미니언즈 & 몬스터즈> 더빙 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.07.18 ~ 2026.07.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "a12443ff8512715553cb8516b077da5a",
+      "title": "<시크릿 에이전트> 상어 괴담 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-10T15:00:17"
+    },
+    {
+      "id": "df5d427a933ea290708d11239c7393b4",
+      "title": "<마티 슈프림> DREAM BIG 릴레이 GV [연기편]",
+      "theater": "LotteCinema",
+      "date": "2026.07.16",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-11T09:00:14"
+    },
+    {
+      "id": "a616fb6a217254a8391b7a9fde170cb8",
+      "title": "<시크릿 에이전트> 영화의 숭배자 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.17",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-11T09:00:14"
+    },
+    {
+      "id": "d1ae145dd742c074f448c7d171c7795a",
+      "title": "<드림 애니멀즈: 더무비> 개봉주&개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.07.24 ~ 2026.08.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "f678c8c4442037e2372e7ce475eda7f4",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 메가박스 7/30 회원시사",
+      "theater": "Megabox",
+      "date": "2026.07.16 ~ 2026.07.28",
+      "event_type": "시사회",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "01139d27a2dcbbbbe3130f0c837ade2b",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 메가박스 7/23 회원시사",
+      "theater": "Megabox",
+      "date": "2026.07.16 ~ 2026.07.21",
+      "event_type": "시사회",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "f160c749360149e2be394adf4239de92",
+      "title": "위러브와 함께하는 <다윗> 싱어롱 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.16 ~ 2026.07.22",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "b2711557fd4e0f6a932ec41c402ce16d",
+      "title": "<마티 슈프림> 10만 관객 감사 앵콜 온라인 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "ff662cb8f5b9878fdee6bb154eb02906",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 회원시사회 (7/26 일)",
+      "theater": "LotteCinema",
+      "date": "2026.07.16 ~ 2026.07.22",
+      "event_type": "시사회",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "53e5bd282fe8eab781d31a1cd2e492e0",
+      "title": "<사랑의 하츄핑: 고래보석의 전설> 회원시사회 (7/27 월)",
+      "theater": "LotteCinema",
+      "date": "2026.07.16 ~ 2026.07.23",
+      "event_type": "시사회",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "4a159cffac393e98d6eb22e3c2dfd703",
+      "title": "<군체> PET포스터 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.07.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-19T15:00:11"
+    },
+    {
+      "id": "13c90954e943b8057b3be69b401cdaa4",
+      "title": "<산양들> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.07.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-07-19T15:00:11"
+    }
+  ]
+}
