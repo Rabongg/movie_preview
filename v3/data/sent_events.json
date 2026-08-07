@@ -271,6 +271,22 @@
       "date": "2026.08.26",
       "event_type": "무대인사",
       "sent_at": "2026-08-06T17:27:09"
+    },
+    {
+      "id": "b4620ebe0e8ce69f83dfa257a6cdda0c",
+      "title": "<군체> 라스트! 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.08.17 ~ 2026.08.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-07T16:07:31"
+    },
+    {
+      "id": "e4bf8c404dc21265e8dcac4c16629212",
+      "title": "<오케이 마담2> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.08.22 ~ 2026.08.23",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-07T16:07:31"
     }
   ]
 }
