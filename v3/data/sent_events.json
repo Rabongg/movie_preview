@@ -711,6 +711,70 @@
       "date": "2026.08.29",
       "event_type": "무대인사",
       "sent_at": "2026-08-26T15:39:45"
+    },
+    {
+      "id": "1fdc1f1a0530b720147a58b347da7361",
+      "title": "<비광> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.09.05 ~ 2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "58c0c75257d838b54e82b3c5c8e5cae4",
+      "title": "<암살자(들)> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.08.27 ~ 2026.09.13",
+      "event_type": "시사회",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "4361e9c104750b7c14d79a81b432491b",
+      "title": "<경주기행> 죽이는 GV 3탄",
+      "theater": "LotteCinema",
+      "date": "2026.09.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "c5100b6c7a998188bfc6504fcc9def96",
+      "title": "<비광> 스페셜 GV with 박찬욱 감독님",
+      "theater": "LotteCinema",
+      "date": "2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "e73dbb845767d16f157be648f20e2719",
+      "title": "<비광> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.05 ~ 2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "eacceef8958123e2346fb2d014feb0f9",
+      "title": "<경주기행> 죽이는 GV 4탄",
+      "theater": "LotteCinema",
+      "date": "2026.09.10",
+      "event_type": "무대인사",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "f77df5eb5ac248f826db59f836b17f28",
+      "title": "<암살자(들)> 회원시사회 ①",
+      "theater": "LotteCinema",
+      "date": "2026.08.26 ~ 2026.09.13",
+      "event_type": "시사회",
+      "sent_at": "2026-08-27T15:34:49"
+    },
+    {
+      "id": "5af6dca306e34a480c8b4db5633ecb07",
+      "title": "<암살자(들)> 회원시사회 ②",
+      "theater": "LotteCinema",
+      "date": "2026.08.26 ~ 2026.09.13",
+      "event_type": "시사회",
+      "sent_at": "2026-08-27T15:34:49"
     }
   ]
 }
