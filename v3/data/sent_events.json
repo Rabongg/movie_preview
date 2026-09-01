@@ -1,852 +1,28 @@
 {
   "sent": [
     {
-      "id": "faba0f39f979539777f6e3640e07864c",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.12 ~ 2026.08.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "eec31338d5ebf8fdbaa5c2219229da24",
-      "title": "<오케이 마담2> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.12 ~ 2026.08.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "d947b194b522e44bb1eba016f05abb48",
-      "title": "<호프> 개봉4주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.08 ~ 2026.08.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "e824eef9ccc4698eda7c62ecd3b59fb4",
-      "title": "<오케이 마담2> 개봉 전 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.08 ~ 2026.08.08",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "4a28265bce6e59139b919d4f93942257",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.05 ~ 2026.08.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "be76038af879e3dc79d3266a5a87ad3b",
-      "title": "<퍼피 구조대: 더 다이노 무비> 특별출동! 코스튬 이벤트",
-      "theater": "Megabox",
-      "date": "2026.08.02 ~ 2026.08.02",
-      "event_type": "기타",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "ee6ea22b440902ffdf6d27658579b58b",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉 전 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.02 ~ 2026.08.02",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "601a6252145a5a187893068e3f58b858",
-      "title": "<호프> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.07.29 ~ 2026.08.02",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "d1ae145dd742c074f448c7d171c7795a",
-      "title": "<드림 애니멀즈: 더무비> 개봉주&개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.07.24 ~ 2026.08.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "03b8245eb2042b098475ca1db75e924c",
-      "title": "2026 독립 예술영화 상영 프로그램 8월 스페셜 GV",
-      "theater": "Megabox",
-      "date": "2026.08.07 ~ 2026.08.27",
-      "event_type": "기타",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "82f50c6ea5257a083373989eb99fd517",
-      "title": "<퍼피 구조대: 더 다이노 무비> 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.08 ~ 2026.08.09",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "7e45590b444578a1553c56bfb63d3b55",
-      "title": "<극장판 도라에몽> 진구 생일 기념 뽑기 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.07",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "971b9667c8bf2a9bab321fb843e220e6",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.01 ~ 2026.08.02",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "5673bbbbe70a4f010d66e3754840d166",
-      "title": "<극장판 도라에몽: 신 진구의 해저비밀성> 엔딩 일러스트 포스터 상영회 (앵콜)",
-      "theater": "LotteCinema",
-      "date": "2026.08.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "706b84b3f584a68dbcb08216e47be4db",
-      "title": "<명탐정 코난: 하이웨이의 타천사> 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.08 ~ 2026.08.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "c3084d39dd7fd407ed4bfb9c94c0e18b",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.05 ~ 2026.08.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "8002d820c0f244a8a53417f5dc9b0e33",
-      "title": "<호프> 4주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.08 ~ 2026.08.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "d56341a4df108d29f16129aa4ada176d",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.12 ~ 2026.08.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "0e1677d33aa34f0e4d30d2a2edae4f1b",
-      "title": "<다윗> 싱어롱 상영회 -기프티드와 함께하는 찬양 콘서트",
-      "theater": "LotteCinema",
-      "date": "2026.07.28 ~ 2026.08.02",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "ccd9071211b77a75f4d7208900d575c2",
-      "title": "<오케이 마담2> 개봉 전 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.07.28 ~ 2026.08.09",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "f7b30e878f018e80af38ecaa55663e84",
-      "title": "<오케이 마담2> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.14 ~ 2026.08.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "03c3eb9484cdc30237ab3ab9ee42473b",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉 전 무대인사 만나핑 ♥",
-      "theater": "LotteCinema",
-      "date": "2026.07.21 ~ 2026.08.02",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "9b78e75f8712ec8b97e18ca0b31bc278",
-      "title": "<오케이 마담2> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.07.21 ~ 2026.08.02",
-      "event_type": "시사회",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "d22c6a748f9be4e3a3c4c826694af05b",
-      "title": "<드림 애니멀즈: 더무비> 개봉주 & 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.07.25 ~ 2026.08.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "87df484eeccf4c64608a5d645fc2a1f6",
-      "title": "<호프> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.07.30 ~ 2026.08.02",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-01T11:09:04"
-    },
-    {
-      "id": "e1773a57800d29e7b427af146216edfc",
-      "title": "<명탐정 코난: 하이웨이의 타천사> 개봉2주차 성우 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-03T18:34:49"
-    },
-    {
-      "id": "f198a5a2b751908a884f60994b62060a",
-      "title": "<지느러미> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.15",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-03T18:34:49"
-    },
-    {
-      "id": "0d6b51695527b22088765d71f2fcfdf7",
-      "title": "<빈집의 연인들> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.16",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-03T18:34:49"
-    },
-    {
-      "id": "ff6d554acd0bbdd1c9f9c4754473b3f6",
-      "title": "<명탐정 코난: 하이웨이의 타천사> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-03T18:34:49"
-    },
-    {
-      "id": "48d7d0f02f03c1e75b3c6b99df6f00ee",
-      "title": "<퍼피 구조대: 더 다이노 무비> 주말 굿즈 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.15 ~ 2026.08.16",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-06T10:55:55"
-    },
-    {
-      "id": "134b3efbea0147b7e958a628984200fb",
-      "title": "<퍼피 구조대: 더 다이노 무비> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.13 ~ 2026.08.16",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-06T17:27:09"
-    },
-    {
-      "id": "16380a8309d2b1a4699241391990014f",
-      "title": "<퍼피 구조대: 더 다이노 무비> 코스튬 플레이 로비 이벤트",
-      "theater": "LotteCinema",
-      "date": "2026.08.08 ~ 2026.08.09",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-06T17:27:09"
-    },
-    {
-      "id": "3ae8acbf97faf0e0a452a8235cbacaa5",
-      "title": "<퍼피 구조대: 더 다이노 무비> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.13 ~ 2026.08.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-06T17:27:09"
-    },
-    {
-      "id": "98e91743267dee23a7e9b1fcd677efc7",
-      "title": "<경주기행> 죽이는 GV 2탄",
-      "theater": "LotteCinema",
-      "date": "2026.08.26",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-06T17:27:09"
-    },
-    {
-      "id": "b4620ebe0e8ce69f83dfa257a6cdda0c",
-      "title": "<군체> 라스트! 굿즈 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.17 ~ 2026.08.18",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-07T16:07:31"
-    },
-    {
-      "id": "e4bf8c404dc21265e8dcac4c16629212",
-      "title": "<오케이 마담2> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-07T16:07:31"
-    },
-    {
-      "id": "f28a9dc9c7415f96027a7131b3328209",
-      "title": "<오케이 마담2> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-08T10:06:05"
-    },
-    {
-      "id": "829f3e9a9cc6f9f75fbc886f2718491c",
-      "title": "<호프> 비하인드 스페셜 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.14",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-08T10:06:05"
-    },
-    {
-      "id": "5f6dd979e5c22f190d2ed386dfd6927e",
-      "title": "<캐리어를 끄는 소녀> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.08.07 ~ 2026.08.20",
-      "event_type": "시사회",
-      "sent_at": "2026-08-10T10:11:50"
-    },
-    {
-      "id": "12b1fc82c27914a5fe5b6bd19aa20a9d",
-      "title": "<호프> 아트팀 키링 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.12",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-10T16:22:44"
-    },
-    {
-      "id": "9aa80997bc971524207a36197f7ddc77",
-      "title": "<오케이 마담2> 빌런액션 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.20",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-11T10:10:40"
-    },
-    {
-      "id": "93a4f7319e1b2a89613d509893760df5",
-      "title": "<싱 어게인> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.08.11 ~ 2026.08.20",
-      "event_type": "시사회",
-      "sent_at": "2026-08-11T10:10:40"
-    },
-    {
-      "id": "f03f70139ce96c7d168f9b50451c9694",
-      "title": "8월 독립예술영화 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.19 ~ 2026.08.29",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-11T15:58:26"
-    },
-    {
-      "id": "0d506ab27bde9702631a3fbac33c98d0",
-      "title": "<빈집의 연인들> 경기인디시네마관 무료시사회",
-      "theater": "LotteCinema",
-      "date": "2026.08.12 ~ 2026.08.18",
-      "event_type": "시사회",
-      "sent_at": "2026-08-12T16:22:34"
-    },
-    {
-      "id": "18acf9abcc90fe8306686772f77f36fd",
-      "title": "<길 위의 뭉치> 오성윤, 이춘백 감독 X 캡틴 송은이 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.21",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-12T16:22:34"
-    },
-    {
-      "id": "9fee9c6f79c90928174613b484f5f55e",
-      "title": "<경주기행> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.26 ~ 2026.08.26",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-13T10:20:03"
-    },
-    {
-      "id": "7d2b1a03568001a0563a42a5f371b794",
-      "title": "<경주기행> 개봉일 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.26 ~ 2026.08.26",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-13T10:20:03"
-    },
-    {
-      "id": "0b7a95328e703b56778eb5c70540ac2b",
-      "title": "<길 위의 뭉치> 오성윤, 이춘백 감독 WITH 장항준 감독 GV",
-      "theater": "LotteCinema",
-      "date": "2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-13T10:20:03"
-    },
-    {
-      "id": "e56c2057215d79f4363328df994cffef",
-      "title": "<경주기행> 개봉일 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.26",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-13T10:20:03"
-    },
-    {
-      "id": "23090028ab371c0f0a5718ebd908d74f",
-      "title": "<경주기행> 개봉 주말 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.29 ~ 2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-13T10:20:03"
-    },
-    {
-      "id": "5b643d519159d24538c00b5fd3daf4f3",
-      "title": "<싱 어게인> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.08.13 ~ 2026.08.24",
-      "event_type": "시사회",
-      "sent_at": "2026-08-13T16:19:27"
-    },
-    {
-      "id": "57da0e60f34d67a0bc359b41c91eec4e",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-14T10:19:30"
-    },
-    {
-      "id": "7781d51b515616fe6caf535e6ac1bb0b",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.22 ~ 2026.08.22",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-14T16:17:24"
-    },
-    {
-      "id": "a5629a68c192f0cd5deeabf840e94bf1",
-      "title": "<퍼피 구조대: 더 다이노 무비> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.22 ~ 2026.08.22",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-15T09:51:39"
-    },
-    {
-      "id": "213d93c1d8bb9946f96cb5ebd93f8983",
-      "title": "<퍼피 구조대: 더 다이노 무비> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-17T15:43:23"
-    },
-    {
-      "id": "cd4274dc2e90283d7d18065da46ed19e",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 개봉4주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.29 ~ 2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-18T15:34:39"
-    },
-    {
-      "id": "7d125d49d030a6f621f92a91177390c0",
-      "title": "<오케이 마담2> 말랑이 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-18T15:34:39"
-    },
-    {
-      "id": "70d8edfd745b898c4f1d8bb45232d11d",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 4주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.29 ~ 2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-18T15:34:39"
-    },
-    {
-      "id": "1f8d251c7951236936b3ccfe599b7665",
-      "title": "<타짜: 벨제붑의 노래> 회원시사회 (9/14, 월)",
-      "theater": "LotteCinema",
-      "date": "2026.08.18 ~ 2026.09.09",
-      "event_type": "시사회",
-      "sent_at": "2026-08-18T15:34:39"
-    },
-    {
-      "id": "0fa27b479222b52970e9b44a4313c3da",
-      "title": "<타짜: 벨제붑의 노래> 회원시사회 (9/15, 화)",
-      "theater": "LotteCinema",
-      "date": "2026.08.18 ~ 2026.09.10",
-      "event_type": "시사회",
-      "sent_at": "2026-08-18T15:34:39"
-    },
-    {
-      "id": "3f2a3b88648f9d04c8079f535d0f701a",
-      "title": "<포가튼 아일랜드> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.08.18 ~ 2026.09.02",
-      "event_type": "시사회",
-      "sent_at": "2026-08-19T09:51:10"
-    },
-    {
-      "id": "019575a1ded21e6267555f742e314db7",
-      "title": "<호프> 앵콜 키링 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.21",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-19T09:51:10"
-    },
-    {
-      "id": "f0ba16cb163b4462711454047b9975f3",
-      "title": "<극장판 귀멸의 칼날: 무한성편> 개봉1주년 기념 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.29 ~ 2026.08.29",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-19T15:35:39"
-    },
-    {
-      "id": "e358c733c9e71c576bafd9556880c1bd",
-      "title": "<보헤미안 랩소디> 시네 아카이브",
-      "theater": "LotteCinema",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-19T15:35:39"
-    },
-    {
-      "id": "b41cfb82130bd3d81a2e9dd9c82128cd",
-      "title": "<극장판 귀멸의 칼날: 무한성편> 개봉 1주년 기념 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.29",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-19T15:35:39"
-    },
-    {
-      "id": "02a05af67f34cffb003db30714cdb940",
-      "title": "<스파이더맨: 브랜드 뉴 데이> 공식 코스어 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.22 ~ 2026.08.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-20T15:37:29"
-    },
-    {
-      "id": "0fc6fde75462d69a4520e25493c1e077",
-      "title": "<스파이더맨: 브랜드 뉴 데이> 개.강한 대학생 개강총회",
-      "theater": "LotteCinema",
-      "date": "2026.08.20 ~ 2026.08.24",
-      "event_type": "댓글형",
-      "sent_at": "2026-08-21T09:54:46"
-    },
-    {
-      "id": "8eca075197f3e419bce0e2634958bf1e",
-      "title": "<빈집의 연인들> 경기인디시네마관 2차 무료시사회",
-      "theater": "LotteCinema",
-      "date": "2026.08.20 ~ 2026.08.30",
-      "event_type": "시사회",
-      "sent_at": "2026-08-21T09:54:46"
-    },
-    {
-      "id": "8f50380a58b5d6fc57a3565377967b3a",
-      "title": "<경주기행> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.09.05 ~ 2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-21T15:37:14"
-    },
-    {
-      "id": "41e5dfed69a4ee295323a545e0e3fe95",
-      "title": "<경주기행> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.05 ~ 2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "72ea24c98d6ce42a78121c3c323dd96a",
-      "title": "<오케이 마담2> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.08.30 ~ 2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "86c268b0cdb2fa2b1857698a1b1941c3",
-      "title": "<오케이 마담2> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "38cf44e0f3c3d4c36a3e30c73772de82",
-      "title": "<포가튼 아일랜드> 자막 회원시사회 (수도권)",
-      "theater": "LotteCinema",
-      "date": "2026.08.21 ~ 2026.09.07",
-      "event_type": "시사회",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "cc7bd8e4e5a6976e85245a79a1cd7338",
-      "title": "<포가튼 아일랜드> 자막 회원시사회 (지방)",
-      "theater": "LotteCinema",
-      "date": "2026.08.21 ~ 2026.09.07",
-      "event_type": "시사회",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "e90ac5fb7a85f18b6628c9fd22621009",
-      "title": "<트루먼의 사랑> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-22T09:51:08"
-    },
-    {
-      "id": "08557e2ad94d82422c015a261509b86e",
-      "title": "<인턴> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.08.24 ~ 2026.09.01",
-      "event_type": "시사회",
-      "sent_at": "2026-08-24T15:46:35"
-    },
-    {
-      "id": "452196c191437cf9d26fa878081f86a4",
-      "title": "오랜만에 찾아온 <비밀상영회>",
-      "theater": "LotteCinema",
-      "date": "2026.08.27",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-24T15:46:35"
-    },
-    {
-      "id": "973b855f43ca26bada818d0a08dedc8a",
-      "title": "<오디세이> 앵콜 트로이 목마 뱃지 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.27",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-24T15:46:35"
-    },
-    {
-      "id": "958879a25e4fe1c6e8e4ab153409f3d0",
-      "title": "<스파이더맨: 브랜드 뉴 데이> 앵콜 감자 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.28",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-24T15:46:35"
-    },
-    {
-      "id": "c3a5275d0fd91a8f04765f1ffc9cb026",
-      "title": "<바다 탐험대 옥토넛 어보브 앤 비욘드 : 두근두근 대자연 어드벤처> 더빙 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.08.24 ~ 2026.09.09",
-      "event_type": "시사회",
-      "sent_at": "2026-08-24T15:46:35"
-    },
-    {
-      "id": "5abd5b1366fb084aa6bd7336bd9cf421",
-      "title": "<포가튼 아일랜드> 자막 회원시사회 (9/12 토, 수도권)",
-      "theater": "LotteCinema",
-      "date": "2026.08.21 ~ 2026.09.07",
-      "event_type": "시사회",
-      "sent_at": "2026-08-25T15:37:57"
-    },
-    {
-      "id": "91819fd262153e2f8874712ac08fc431",
-      "title": "<포가튼 아일랜드> 자막 회원시사회 ((9/12 토, 지방)",
-      "theater": "LotteCinema",
-      "date": "2026.08.21 ~ 2026.09.07",
-      "event_type": "시사회",
-      "sent_at": "2026-08-25T15:37:57"
-    },
-    {
-      "id": "a7538dd7813cff2559917cf5539217a4",
-      "title": "<사랑의 하츄핑: 고래보석의 전설> 손거울 키링 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "974a8cd7a574ce527f00694f264c65f8",
-      "title": "<인턴> 회원시사회 (9/4금, 월드타워)",
-      "theater": "LotteCinema",
-      "date": "2026.08.25 ~ 2026.08.31",
-      "event_type": "시사회",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "744365409b627bffe46a892a1cfeda1b",
-      "title": "<인턴> 회원시사회 (9/5 토)",
-      "theater": "LotteCinema",
-      "date": "2026.08.25 ~ 2026.09.02",
-      "event_type": "시사회",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "8a4710470dea30730c2cd3a204818893",
-      "title": "<오디세이> 스페셜 GV 3탄 - 음유시인과 보는 오디세이",
-      "theater": "LotteCinema",
-      "date": "2026.09.03",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "b18376b19720a2707b1e4592204e5038",
-      "title": "<포가튼 아일랜드> 회원시사회 (9/19토, 수도권)",
-      "theater": "LotteCinema",
-      "date": "2026.08.25 ~ 2026.09.14",
-      "event_type": "시사회",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "af3e3c40975577e03d56cf7fc1652f45",
-      "title": "<포가튼 아일랜드> 회원시사회 (9/19토, 지방)",
-      "theater": "LotteCinema",
-      "date": "2026.08.25 ~ 2026.09.14",
-      "event_type": "시사회",
-      "sent_at": "2026-08-26T09:53:50"
-    },
-    {
-      "id": "3008309983ff29854bf3cf4d7eba6d71",
-      "title": "<스파이더맨: 브랜드 뉴 데이> 시네 아카이브",
-      "theater": "LotteCinema",
-      "date": "2026.08.29",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-26T15:39:45"
-    },
-    {
-      "id": "1fdc1f1a0530b720147a58b347da7361",
-      "title": "<비광> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.05 ~ 2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "58c0c75257d838b54e82b3c5c8e5cae4",
-      "title": "<암살자(들)> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.08.27 ~ 2026.09.13",
-      "event_type": "시사회",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "4361e9c104750b7c14d79a81b432491b",
-      "title": "<경주기행> 죽이는 GV 3탄",
-      "theater": "LotteCinema",
-      "date": "2026.09.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "c5100b6c7a998188bfc6504fcc9def96",
-      "title": "<비광> 스페셜 GV with 박찬욱 감독님",
-      "theater": "LotteCinema",
-      "date": "2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "e73dbb845767d16f157be648f20e2719",
-      "title": "<비광> 1주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.09.05 ~ 2026.09.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "eacceef8958123e2346fb2d014feb0f9",
-      "title": "<경주기행> 죽이는 GV 4탄",
-      "theater": "LotteCinema",
-      "date": "2026.09.10",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "f77df5eb5ac248f826db59f836b17f28",
-      "title": "<암살자(들)> 회원시사회 ①",
-      "theater": "LotteCinema",
-      "date": "2026.08.26 ~ 2026.09.13",
-      "event_type": "시사회",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "5af6dca306e34a480c8b4db5633ecb07",
-      "title": "<암살자(들)> 회원시사회 ②",
-      "theater": "LotteCinema",
-      "date": "2026.08.26 ~ 2026.09.13",
-      "event_type": "시사회",
-      "sent_at": "2026-08-27T15:34:49"
-    },
-    {
-      "id": "982bf98b879d5890eaa6bfe539393026",
-      "title": "<호프> 스티커팩 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.08.30",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T02:14:59"
-    },
-    {
-      "id": "11a2825cfefdfbb11944c18a8169265e",
-      "title": "<암살자(들)> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "b66024fbbcd92ee018409d388030d465",
-      "title": "<암살자(들)> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.03 ~ 2026.10.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "ba5248b60d8ed5ea6604683c69f680a4",
-      "title": "<인턴> 추석 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.25 ~ 2026.09.27",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "0f31dba184615e3c12e3ef693ae5f9e2",
-      "title": "<암살자(들)> 추석 연휴 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.24 ~ 2026.09.27",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "68d02594146cda9f38426f2b2c941878",
-      "title": "<인턴> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.16 ~ 2026.09.20",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "20867b3a248b41448b1c94339924931c",
-      "title": "<인턴> 개봉 전주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.12 ~ 2026.09.12",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
-      "id": "2626aac8ee2e6328b7814973945f77fe",
-      "title": "<극장판 기븐 - 바다로> 무대인사 & 특별상영회",
-      "theater": "Megabox",
-      "date": "2026.09.05 ~ 2026.09.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
-    },
-    {
       "id": "688a92945da8f1ab6297c840bb5e1f8c",
       "title": "<인턴> 프리미어 굿즈 증정 상영회",
       "theater": "LotteCinema",
       "date": "2026.09.13",
       "event_type": "정보전달형(공지)",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "397fd4b625c66fb99988bb5000f55a46",
+      "title": "<경주기행> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.13",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "e4da987c58ea2bdf7fa369a1c31c2469",
+      "title": "<비광> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.13",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "d311d6016e21bbbe900b6a00b1be9ac9",
@@ -854,7 +30,7 @@
       "theater": "LotteCinema",
       "date": "2026.09.12",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "8a3ac75834cc0c7878550b0451aae110",
@@ -862,7 +38,7 @@
       "theater": "LotteCinema",
       "date": "2026.09.16 ~ 2026.09.20",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "1497713774bfd8db84ebddf74a154601",
@@ -870,7 +46,7 @@
       "theater": "LotteCinema",
       "date": "2026.09.23",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "726c9ffb2d5608322606aaf1f4086603",
@@ -878,7 +54,7 @@
       "theater": "LotteCinema",
       "date": "2026.09.24 ~ 2026.09.26",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "8379ca5d1a34febbcff8e0b8800d3449",
@@ -886,7 +62,7 @@
       "theater": "LotteCinema",
       "date": "2026.09.25 ~ 2026.09.27",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "6756c9844c60607efe435ae0341d4067",
@@ -894,7 +70,7 @@
       "theater": "LotteCinema",
       "date": "2026.10.03 ~ 2026.10.05",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
     },
     {
       "id": "598b72fba1cb3a3dee4253d2c6120d63",
@@ -902,7 +78,143 @@
       "theater": "LotteCinema",
       "date": "2026.10.09 ~ 2026.10.11",
       "event_type": "무대인사",
-      "sent_at": "2026-08-28T17:24:49"
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "4361e9c104750b7c14d79a81b432491b",
+      "title": "<경주기행> 죽이는 GV 3탄",
+      "theater": "LotteCinema",
+      "date": "2026.09.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "c5100b6c7a998188bfc6504fcc9def96",
+      "title": "<비광> 스페셜 GV with 박찬욱 감독님",
+      "theater": "LotteCinema",
+      "date": "2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "e73dbb845767d16f157be648f20e2719",
+      "title": "<비광> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.05 ~ 2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "eacceef8958123e2346fb2d014feb0f9",
+      "title": "<경주기행> 죽이는 GV 4탄",
+      "theater": "LotteCinema",
+      "date": "2026.09.10",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "f77df5eb5ac248f826db59f836b17f28",
+      "title": "<암살자(들)> 회원시사회 ①",
+      "theater": "LotteCinema",
+      "date": "2026.08.26 ~ 2026.09.13",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "5af6dca306e34a480c8b4db5633ecb07",
+      "title": "<암살자(들)> 회원시사회 ②",
+      "theater": "LotteCinema",
+      "date": "2026.08.26 ~ 2026.09.13",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "744365409b627bffe46a892a1cfeda1b",
+      "title": "<인턴> 회원시사회 (9/5 토)",
+      "theater": "LotteCinema",
+      "date": "2026.08.25 ~ 2026.09.02",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "8a4710470dea30730c2cd3a204818893",
+      "title": "<오디세이> 스페셜 GV 3탄 - 음유시인과 보는 오디세이",
+      "theater": "LotteCinema",
+      "date": "2026.09.03",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "b18376b19720a2707b1e4592204e5038",
+      "title": "<포가튼 아일랜드> 회원시사회 (9/19토, 수도권)",
+      "theater": "LotteCinema",
+      "date": "2026.08.25 ~ 2026.09.14",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "af3e3c40975577e03d56cf7fc1652f45",
+      "title": "<포가튼 아일랜드> 회원시사회 (9/19토, 지방)",
+      "theater": "LotteCinema",
+      "date": "2026.08.25 ~ 2026.09.14",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "c3a5275d0fd91a8f04765f1ffc9cb026",
+      "title": "<바다 탐험대 옥토넛 어보브 앤 비욘드 : 두근두근 대자연 어드벤처> 더빙 회원시사회",
+      "theater": "LotteCinema",
+      "date": "2026.08.24 ~ 2026.09.09",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "8f50380a58b5d6fc57a3565377967b3a",
+      "title": "<경주기행> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.05 ~ 2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "5abd5b1366fb084aa6bd7336bd9cf421",
+      "title": "<포가튼 아일랜드> 자막 회원시사회 (9/12 토, 수도권)",
+      "theater": "LotteCinema",
+      "date": "2026.08.21 ~ 2026.09.07",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "91819fd262153e2f8874712ac08fc431",
+      "title": "<포가튼 아일랜드> 자막 회원시사회 ((9/12 토, 지방)",
+      "theater": "LotteCinema",
+      "date": "2026.08.21 ~ 2026.09.07",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "e90ac5fb7a85f18b6628c9fd22621009",
+      "title": "<트루먼의 사랑> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.09.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "1f8d251c7951236936b3ccfe599b7665",
+      "title": "<타짜: 벨제붑의 노래> 회원시사회 (9/14, 월)",
+      "theater": "LotteCinema",
+      "date": "2026.08.18 ~ 2026.09.09",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
+    },
+    {
+      "id": "0fa27b479222b52970e9b44a4313c3da",
+      "title": "<타짜: 벨제붑의 노래> 회원시사회 (9/15, 화)",
+      "theater": "LotteCinema",
+      "date": "2026.08.18 ~ 2026.09.10",
+      "event_type": "시사회",
+      "sent_at": "2026-09-01T12:04:08"
     }
   ]
 }
