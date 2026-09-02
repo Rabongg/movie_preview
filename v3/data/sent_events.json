@@ -359,6 +359,14 @@
       "date": "2026.09.11",
       "event_type": "무대인사",
       "sent_at": "2026-09-02T11:19:34"
+    },
+    {
+      "id": "fbb10c77fc615035bc0b09245cdd7007",
+      "title": "<오디세이> CINE ARCHIVE",
+      "theater": "LotteCinema",
+      "date": "2026.09.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-02T19:28:25"
     }
   ]
 }
