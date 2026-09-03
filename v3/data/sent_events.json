@@ -375,6 +375,46 @@
       "date": "2026.09.11 ~ 2026.09.29",
       "event_type": "정보전달형(공지)",
       "sent_at": "2026-09-03T11:26:57"
+    },
+    {
+      "id": "e36168d33c87ca63a2cbbd1fc51e6ef2",
+      "title": "<타짜: 벨제붑의 노래> 개봉3주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.09 ~ 2026.10.11",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-03T19:34:45"
+    },
+    {
+      "id": "ef5bcfd60df62e712839feda1bff4fa8",
+      "title": "<타짜: 벨제붑의 노래> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.03 ~ 2026.10.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-03T19:34:45"
+    },
+    {
+      "id": "ea0284e835e5d1330c9dbdb87309f2a1",
+      "title": "<타짜: 벨제붑의 노래> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.09.23 ~ 2026.09.27",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-03T19:34:45"
+    },
+    {
+      "id": "90b03bdbf24cc52ac2cd206e62802f2d",
+      "title": "<타짜: 벨제붑의 노래> 개봉전 무대인사",
+      "theater": "Megabox",
+      "date": "2026.09.12 ~ 2026.09.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-03T19:34:45"
+    },
+    {
+      "id": "d0bd47eee7d90054bdd20c82a7e3cdef",
+      "title": "<수련> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.09.13",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-03T19:34:45"
     }
   ]
 }
