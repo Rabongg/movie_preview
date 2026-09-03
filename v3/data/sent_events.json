@@ -367,6 +367,14 @@
       "date": "2026.09.05",
       "event_type": "무대인사",
       "sent_at": "2026-09-02T19:28:25"
+    },
+    {
+      "id": "723ea131df08fbc5f55cf8cddf9dbcaa",
+      "title": "9월 독립예술영화 GV",
+      "theater": "LotteCinema",
+      "date": "2026.09.11 ~ 2026.09.29",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-09-03T11:26:57"
     }
   ]
 }
