@@ -423,6 +423,54 @@
       "date": "2026.09.12",
       "event_type": "무대인사",
       "sent_at": "2026-09-04T11:22:30"
+    },
+    {
+      "id": "e88a5a1ce7c50ea5157dbcb04f913828",
+      "title": "새로운 이웃, 검단아라 WELCOME 개봉전 회원 시사",
+      "theater": "LotteCinema",
+      "date": "2026.09.04 ~ 2026.09.13",
+      "event_type": "댓글형",
+      "sent_at": "2026-09-04T19:26:17"
+    },
+    {
+      "id": "fc4285433beed30e4d6109146f86b77c",
+      "title": "<담요를 입은 사람> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.09.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-04T19:26:17"
+    },
+    {
+      "id": "1ed3c2d773f69711b024037fe5e42538",
+      "title": "<타짜: 벨제붑의 노래> 개봉 전 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.12 ~ 2026.09.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-04T19:26:17"
+    },
+    {
+      "id": "adcd9a19be4f71abe1b2f6f9ab52d20f",
+      "title": "<타짜: 벨제붑의 노래> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.23 ~ 2026.09.27",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-04T19:26:17"
+    },
+    {
+      "id": "03d8cebed120502319db5804b7b811f3",
+      "title": "<타짜: 벨제붑의 노래> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.03 ~ 2026.10.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-04T19:26:17"
+    },
+    {
+      "id": "788499470d1fb6bc8fc874ac39942611",
+      "title": "<타짜: 벨제붑의 노래> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.09 ~ 2026.10.11",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-04T19:26:17"
     }
   ]
 }
