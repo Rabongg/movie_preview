@@ -567,6 +567,54 @@
       "date": "2026.09.10 ~ 2026.09.14",
       "event_type": "시사회",
       "sent_at": "2026-09-11T11:25:20"
+    },
+    {
+      "id": "b45d53bbc5d96359ab0cae6bcd58fdad",
+      "title": "<인턴> 개봉3주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.03 ~ 2026.10.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
+    },
+    {
+      "id": "a8b0b4c83f1e87df44452e3edd87de28",
+      "title": "<극장판 치이카와: 인어 섬의 비밀> 개봉 전 무대인사",
+      "theater": "Megabox",
+      "date": "2026.09.19 ~ 2026.09.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
+    },
+    {
+      "id": "e8720a345035864c8ab9d4b1d4937008",
+      "title": "<아가미> 뱃지 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.09.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
+    },
+    {
+      "id": "1363b7eede2a7a61158a826c9270332e",
+      "title": "<치이카와: 인어 섬의 비밀> 개봉 전 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.19 ~ 2026.09.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
+    },
+    {
+      "id": "bacbc147a5ed1b3b6df6c4d0c43f1b0c",
+      "title": "<가능한 사랑> 스페셜 GV",
+      "theater": "LotteCinema",
+      "date": "2026.09.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
+    },
+    {
+      "id": "041dbd14552fd6d3c29d841770b7cc71",
+      "title": "<인턴> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.03 ~ 2026.10.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-11T19:29:57"
     }
   ]
 }
