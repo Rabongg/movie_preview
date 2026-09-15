@@ -639,6 +639,38 @@
       "date": "2026.09.23",
       "event_type": "무대인사",
       "sent_at": "2026-09-14T20:35:07"
+    },
+    {
+      "id": "fcbee03f57a3cf8e516edc6d71c0d2ff",
+      "title": "<오아시스: 돈 룩 백 인 앵거> 리액션 상영회 안내",
+      "theater": "LotteCinema",
+      "date": "2026.09.18 ~ 2026.09.20",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-09-15T19:55:08"
+    },
+    {
+      "id": "e7aa69c8c49fdeca08b58d17cf5dc673",
+      "title": "<인턴> 스페셜 상영회 with 오란다 꺽캡 키링",
+      "theater": "LotteCinema",
+      "date": "2026.09.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-15T19:55:08"
+    },
+    {
+      "id": "e58ce31eaa18124b419e7819099abe48",
+      "title": "<더 드라마> X Sunlovetour 카라비너 패키지 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.09.19 ~ 2026.09.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-15T19:55:08"
+    },
+    {
+      "id": "f121585f6c236deb4454cb49076ad151",
+      "title": "<건대에서 누워 볼 건대?!> 회원 초청 시사회",
+      "theater": "LotteCinema",
+      "date": "2026.09.15 ~ 2026.09.20",
+      "event_type": "버튼형",
+      "sent_at": "2026-09-15T19:55:08"
     }
   ]
 }
