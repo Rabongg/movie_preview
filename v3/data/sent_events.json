@@ -687,6 +687,14 @@
       "date": "2026.10.02",
       "event_type": "무대인사",
       "sent_at": "2026-09-17T19:51:30"
+    },
+    {
+      "id": "b8da42d00c960b3b0e54db0c95246b9a",
+      "title": "<인턴> 스페셜상영회 with 기호의 사원증",
+      "theater": "LotteCinema",
+      "date": "2026.09.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-18T19:26:48"
     }
   ]
 }
