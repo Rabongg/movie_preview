@@ -743,6 +743,62 @@
       "date": "2026.10.09 ~ 2026.10.11",
       "event_type": "무대인사",
       "sent_at": "2026-09-22T19:50:31"
+    },
+    {
+      "id": "58e16b77407c52c5ca73a0bec633b980",
+      "title": "<전자오락수호대> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.17 ~ 2026.10.17",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "5faa7a19325315b6a089b12c5cb46719",
+      "title": "<부활남: 더 레드> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.11 ~ 2026.10.11",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "4df2c73f0ceac2538e176bb0c4e2e4cc",
+      "title": "<가족여행> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.09.23 ~ 2026.10.01",
+      "event_type": "시사회",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "b5ebe40be8bd243cbe867a5f48fbeba9",
+      "title": "<전자오락수호대> 개봉전 프리미어 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.10 ~ 2026.10.11",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "fad5b262d41a4292bc9d726f77a1387b",
+      "title": "<퓨리어스> 액션 어셈블 릴레이 GV 2탄",
+      "theater": "LotteCinema",
+      "date": "2026.10.04",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "f7831be918c3b798500026dab1c3c8fc",
+      "title": "<전자오락수호대> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.17",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-23T19:39:45"
+    },
+    {
+      "id": "678c57f43124f4eb93ac2202f94c6a08",
+      "title": "<타짜: 벨제붑의 노래> 추석연휴 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.09.23 ~ 2026.09.27",
+      "event_type": "무대인사",
+      "sent_at": "2026-09-23T19:39:45"
     }
   ]
 }
