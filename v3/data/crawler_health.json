@@ -1,10 +1,10 @@
 {
   "MegaboxCrawler": {
-    "consecutive_zeros": 0,
-    "last_updated": "2026-10-02T20:46:47"
+    "consecutive_zeros": 1,
+    "last_updated": "2026-10-03T12:20:49"
   },
   "LotteCinemaCrawler": {
     "consecutive_zeros": 0,
-    "last_updated": "2026-10-02T20:46:48"
+    "last_updated": "2026-10-03T12:20:50"
   }
 }
