@@ -239,6 +239,30 @@
       "date": "2026.10.06 ~ 2026.10.06",
       "event_type": "무대인사",
       "sent_at": "2026-10-04T20:42:07"
+    },
+    {
+      "id": "e3bca59e209e8653b01f6f58edb088b7",
+      "title": "<보이는 여고생> 회원시사회",
+      "theater": "LotteCinema",
+      "date": "2026.10.06 ~ 2026.10.15",
+      "event_type": "시사회",
+      "sent_at": "2026-10-06T13:14:58"
+    },
+    {
+      "id": "b75407d0def111b4125a10e3ad152d8a",
+      "title": "<이방인> 경기인디시네마 GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.16",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-06T13:14:58"
+    },
+    {
+      "id": "b75407d0def111b4125a10e3ad152d8a",
+      "title": "<이방인> 경기인디시네마 GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.16",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-06T13:14:58"
     }
   ]
 }
