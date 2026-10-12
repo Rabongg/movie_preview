@@ -351,6 +351,54 @@
       "date": "2026.10.24",
       "event_type": "무대인사",
       "sent_at": "2026-10-12T12:41:52"
+    },
+    {
+      "id": "793844278c1ab7ffb8cf5b0e4888545b",
+      "title": "<전자오락수호대> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.24 ~ 2026.10.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-12T23:14:25"
+    },
+    {
+      "id": "7645c97f74ff3091b2897a4dbec5beb1",
+      "title": "<클레이페이스> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.10.12 ~ 2026.10.15",
+      "event_type": "시사회",
+      "sent_at": "2026-10-12T23:14:25"
+    },
+    {
+      "id": "1218047f0a359dba217d090559655ef6",
+      "title": "<킬링타임> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.10.12 ~ 2026.10.15",
+      "event_type": "시사회",
+      "sent_at": "2026-10-12T23:14:25"
+    },
+    {
+      "id": "66cc301b225aa06fa2f2a17767fbe301",
+      "title": "<흐르는 여정> 프리미어 GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.17",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-12T23:14:25"
+    },
+    {
+      "id": "ee7829cd420386e2d81cd4148e32302b",
+      "title": "<그대, 별처럼> 스페셜 내한 GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-12T23:14:25"
+    },
+    {
+      "id": "08388e66b537ac221c12137c8f3740e8",
+      "title": "<그대, 별처럼> 내한 기념 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.19",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-12T23:14:25"
     }
   ]
 }
