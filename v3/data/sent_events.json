@@ -415,6 +415,22 @@
       "date": "2026.10.24 ~ 2026.10.25",
       "event_type": "정보전달형(공지)",
       "sent_at": "2026-10-13T22:24:40"
+    },
+    {
+      "id": "dc5e4000d709cdbcfa59e032602db2f7",
+      "title": "<와호장룡> CINE Archive",
+      "theater": "LotteCinema",
+      "date": "2026.10.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-14T20:02:58"
+    },
+    {
+      "id": "d120196e510328d20e400667fb11dc9a",
+      "title": "<프레셔>회원시사회",
+      "theater": "LotteCinema",
+      "date": "2026.10.14 ~ 2026.10.25",
+      "event_type": "시사회",
+      "sent_at": "2026-10-14T20:02:58"
     }
   ]
 }
