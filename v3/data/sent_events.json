@@ -471,6 +471,62 @@
       "date": "2026.11.04 ~ 2026.11.07",
       "event_type": "무대인사",
       "sent_at": "2026-10-15T11:41:35"
+    },
+    {
+      "id": "63f8dedfe57c47c17d412b1a6c299a18",
+      "title": "<최종면접> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.04 ~ 2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "904d23331ea792b4c767f0c2c7677d73",
+      "title": "<최종면접> 개봉 전 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "25a79ad6ddd78679162c8969b98baabb",
+      "title": "<실낙원> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.25 ~ 2026.10.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "bbd5dfae41db2afe78999a9623d25741",
+      "title": "<킬링타임> 개봉일 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.21 ~ 2026.10.21",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "f7f33863de53a4ea7f1ae0803203dbe3",
+      "title": "<실낙원> GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.21",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "eecb1fcb3e7abf48c7c60ba87fcee945",
+      "title": "<킬링타임> 키캡 키링 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
+    },
+    {
+      "id": "9353f7795d04c2228ee2d1b7b564f417",
+      "title": "<보이는 여고생> 엽서세트 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T19:45:31"
     }
   ]
 }
