@@ -431,6 +431,46 @@
       "date": "2026.10.14 ~ 2026.10.25",
       "event_type": "시사회",
       "sent_at": "2026-10-14T20:02:58"
+    },
+    {
+      "id": "97acb74e51acf24d2df182d67cb505a5",
+      "title": "<구제역에서 살아 돌아온 돼지> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.23",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T11:41:35"
+    },
+    {
+      "id": "cc24824b187de57b6d852355d1183a47",
+      "title": "<킬링타임> 개봉주 주말 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.24 ~ 2026.10.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T11:41:35"
+    },
+    {
+      "id": "192ab7cf3f957c141503dc320d303918",
+      "title": "<최종면접> 개봉 전 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T11:41:35"
+    },
+    {
+      "id": "b943c60aaeac538873e6608775b98b01",
+      "title": "<변이> 뻔뻔한 번아웃 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T11:41:35"
+    },
+    {
+      "id": "bf8b6f7d299fab0e72384c7d8d5817a7",
+      "title": "<최종면접> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.04 ~ 2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-15T11:41:35"
     }
   ]
 }
