@@ -575,6 +575,62 @@
       "date": "2026.10.17 ~ 2026.10.23",
       "event_type": "시사회",
       "sent_at": "2026-10-18T11:30:20"
+    },
+    {
+      "id": "8b4c8aa91c13f2b8373bd2fd776f9b19",
+      "title": "<수능, 출제의 비밀> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.07 ~ 2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "d8eb3d0f59238da75dda1bc551c90bf9",
+      "title": "<수능, 출제의 비밀> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "b2a6434c921d23c1db770dde08624bea",
+      "title": "<실낙원> 개봉일 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.21 ~ 2026.10.21",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "1b2e212a7ff8f6375721c390bfcd59a2",
+      "title": "<실낙원> 게릴라 개봉일 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.19 ~ 2026.10.21",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "18f95635b9d98c8a9aa45a86e5116e4b",
+      "title": "<여전히 찬란하게> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "a06b969436d8bb92aa6958df468159d3",
+      "title": "<수능, 출제의 비밀> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
+    },
+    {
+      "id": "67feab780ed167350bc291afded4576b",
+      "title": "<수능, 출제의 비밀> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-19T20:55:19"
     }
   ]
 }
