@@ -679,6 +679,30 @@
       "date": "2026.10.26",
       "event_type": "무대인사",
       "sent_at": "2026-10-21T11:49:41"
+    },
+    {
+      "id": "2e4f993fdb38e8290fc92d259f8213fb",
+      "title": "<극장판 치이카와: 인어 섬의 비밀> 4주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.24 ~ 2026.10.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-21T20:03:08"
+    },
+    {
+      "id": "fea147318d7af4ee4c34ec5c15d1ea7b",
+      "title": "<극장판 치이카와: 인어 섬의 비밀> 4주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-21T20:03:08"
+    },
+    {
+      "id": "c3d4c985323020f7867ec2cdcfc53927",
+      "title": "<전자오락수호대> 캐릭터 PET 스탠드 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-21T20:03:08"
     }
   ]
 }
