@@ -711,6 +711,46 @@
       "date": "2026.10.22 ~ 2026.10.28",
       "event_type": "시사회",
       "sent_at": "2026-10-22T11:48:22"
+    },
+    {
+      "id": "3b7ec15492cfe36016908a9526d38b1e",
+      "title": "<모자 쓴 고양이> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.10.23 ~ 2026.10.28",
+      "event_type": "시사회",
+      "sent_at": "2026-10-23T11:51:59"
+    },
+    {
+      "id": "60d7ac13d24daa584c6afcbf5f9dfde6",
+      "title": "<비밀상영회> 이번엔 어떤 영화?",
+      "theater": "LotteCinema",
+      "date": "2026.10.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T11:51:59"
+    },
+    {
+      "id": "332ca37e5f9b2657a11ecbd0f9f3f7af",
+      "title": "<하트 오브 비스트> 굿즈 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T11:51:59"
+    },
+    {
+      "id": "b9df9aa67a7149f46656b4e333dd432d",
+      "title": "<실낙원> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T11:51:59"
+    },
+    {
+      "id": "b4589f0f5d4c110d1174b7354a5776d1",
+      "title": "<프레셔> 육준서 프레셔: 생존 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T11:51:59"
     }
   ]
 }
