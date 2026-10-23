@@ -751,6 +751,38 @@
       "date": "2026.11.06",
       "event_type": "무대인사",
       "sent_at": "2026-10-23T11:51:59"
+    },
+    {
+      "id": "495973bdc1d1eca09e7294e093304982",
+      "title": "<실낙원> 개봉2주차 무대인사",
+      "theater": "Megabox",
+      "date": "2026.10.31 ~ 2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T19:55:04"
+    },
+    {
+      "id": "935b4ad5f875327de46fd9491fa344ee",
+      "title": "<그대, 별처럼> 인생멜로 TALK GV",
+      "theater": "LotteCinema",
+      "date": "2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T19:55:04"
+    },
+    {
+      "id": "8a9d819bb5b4eb1451404c1bb299cee2",
+      "title": "<그대, 별처럼> 원작도서 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T19:55:04"
+    },
+    {
+      "id": "f6485960bdbf16e88d0b4aa66d30c726",
+      "title": "<숀 더 쉽: 공포의 털보 괴물> 스페셜상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-23T19:55:04"
     }
   ]
 }
