@@ -783,6 +783,22 @@
       "date": "2026.11.01",
       "event_type": "무대인사",
       "sent_at": "2026-10-23T19:55:04"
+    },
+    {
+      "id": "cba01a9b364c1cbdded48914e94cea3a",
+      "title": "<수능, 출제의 비밀> 개봉일 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.28",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-26T11:38:34"
+    },
+    {
+      "id": "d213f4604fc9d9d45e9e7ab8541bad3a",
+      "title": "<파리스 그린이 밝는 날에> 굿즈패키지 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.10.31",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-26T11:38:34"
     }
   ]
 }
