@@ -799,6 +799,22 @@
       "date": "2026.10.31",
       "event_type": "무대인사",
       "sent_at": "2026-10-26T11:38:34"
+    },
+    {
+      "id": "baeeb80ad91a468af219504d6017c03e",
+      "title": "<트레인스포팅> 스페셜상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-27T20:29:37"
+    },
+    {
+      "id": "6f381fb93e29c3a4af96bf25a08e3f81",
+      "title": "<그대, 별처럼> 2주차 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.03",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-27T20:29:37"
     }
   ]
 }
