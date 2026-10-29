@@ -871,6 +871,22 @@
       "date": "2026.11.07",
       "event_type": "무대인사",
       "sent_at": "2026-10-28T20:59:45"
+    },
+    {
+      "id": "c38c9c28f7e34d646b3207d9f183e4c6",
+      "title": "<클레이페이스> 앵콜 슬라임 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-29T12:55:29"
+    },
+    {
+      "id": "9eaef50cfa673afeb8d0ee62338e84f8",
+      "title": "<낮과 밤은 서로에게> 가을 밤의 꿈 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-29T12:55:29"
     }
   ]
 }
