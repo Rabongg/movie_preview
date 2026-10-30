@@ -887,6 +887,22 @@
       "date": "2026.11.05",
       "event_type": "무대인사",
       "sent_at": "2026-10-29T12:55:29"
+    },
+    {
+      "id": "5088bca095d133231f702f13b8262b69",
+      "title": "<그대, 별처럼> 북키링 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-30T21:00:34"
+    },
+    {
+      "id": "1fd49c59cdbffc328e4688a73d5e9bfa",
+      "title": "<흐르는 여정> 반가운 올.미.다 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.09",
+      "event_type": "무대인사",
+      "sent_at": "2026-10-30T21:00:34"
     }
   ]
 }
