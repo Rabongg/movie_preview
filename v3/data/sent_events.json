@@ -1,580 +1,12 @@
 {
   "sent": [
     {
-      "id": "58e16b77407c52c5ca73a0bec633b980",
-      "title": "<전자오락수호대> 개봉주 무대인사",
+      "id": "fbd9ca62dcb83713888a15848942bd44",
+      "title": "<최종면접> 개봉2주차 무대인사",
       "theater": "Megabox",
-      "date": "2026.10.17 ~ 2026.10.17",
+      "date": "2026.11.14 ~ 2026.11.15",
       "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "5faa7a19325315b6a089b12c5cb46719",
-      "title": "<부활남: 더 레드> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.11 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "e36168d33c87ca63a2cbbd1fc51e6ef2",
-      "title": "<타짜: 벨제붑의 노래> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "11a2825cfefdfbb11944c18a8169265e",
-      "title": "<암살자(들)> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "d3593ef2b7bca46690cfdf31b4f61848",
-      "title": "<룩백> 내한 기념 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.08 ~ 2026.10.10",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "c3087edcb9ac5a598fc97ba1159a13a0",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 1주차&2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.03 ~ 2026.10.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "ef5bcfd60df62e712839feda1bff4fa8",
-      "title": "<타짜: 벨제붑의 노래> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.03 ~ 2026.10.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b45d53bbc5d96359ab0cae6bcd58fdad",
-      "title": "<인턴> 개봉3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.03 ~ 2026.10.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b66024fbbcd92ee018409d388030d465",
-      "title": "<암살자(들)> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.03 ~ 2026.10.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "862ac6240c09f27bf280e91a3a286dd5",
-      "title": "<부활남: 더 레드> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.09.30 ~ 2026.10.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "4df2c73f0ceac2538e176bb0c4e2e4cc",
-      "title": "<가족여행> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.09.23 ~ 2026.10.01",
-      "event_type": "시사회",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b5ebe40be8bd243cbe867a5f48fbeba9",
-      "title": "<전자오락수호대> 개봉전 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.10 ~ 2026.10.11",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b0308f975a61bf7d0cce312bf61daa7a",
-      "title": "10월 독립예술영화 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.04 ~ 2026.10.30",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b195aa37527955439fe253492c17835c",
-      "title": "<인턴> 합격SET 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.03",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "71afe785ba5a2d7a6cfbb3ad5aad9883",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 1주차&2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.03 ~ 2026.10.10",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "fad5b262d41a4292bc9d726f77a1387b",
-      "title": "<퓨리어스> 액션 어셈블 릴레이 GV 2탄",
-      "theater": "LotteCinema",
-      "date": "2026.10.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "f7831be918c3b798500026dab1c3c8fc",
-      "title": "<전자오락수호대> 1주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "b1fa30f53c5df8bf208feb77d9bd5995",
-      "title": "<부활남: 더 레드> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "93d0826d79ae453afcd2508e7a33d508",
-      "title": "<인턴> 스페셜 상영회 with 피자모양 캔 오프너 키링",
-      "theater": "LotteCinema",
-      "date": "2026.10.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "e469de655f41b424491746a121bcc589",
-      "title": "<환희의 얼굴> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.02",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "041dbd14552fd6d3c29d841770b7cc71",
-      "title": "<인턴> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.03 ~ 2026.10.04",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "67efcda3b89704a2b8248758983f4260",
-      "title": "<부활남: 더 레드> 1주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.09.30 ~ 2026.10.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "03d8cebed120502319db5804b7b811f3",
-      "title": "<타짜: 벨제붑의 노래> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.03 ~ 2026.10.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "788499470d1fb6bc8fc874ac39942611",
-      "title": "<타짜: 벨제붑의 노래> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "6756c9844c60607efe435ae0341d4067",
-      "title": "<암살자(들)> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.03 ~ 2026.10.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "598b72fba1cb3a3dee4253d2c6120d63",
-      "title": "<암살자(들)> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.09 ~ 2026.10.11",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-01T12:30:58"
-    },
-    {
-      "id": "7680d4e9943073c191c31a22afce2f09",
-      "title": "<스파이더맨: 브랜드 뉴 데이> 900만 기념 굿즈 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-02T12:30:59"
-    },
-    {
-      "id": "9ad8034fa43fa9648a66c6515c9d76b0",
-      "title": "<부활남: 더 레드> 팝콘무비 학생 초청상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.02 ~ 2026.10.05",
-      "event_type": "버튼형",
-      "sent_at": "2026-10-02T20:46:49"
-    },
-    {
-      "id": "526dabe9933b0271661700f0b3a05f0d",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 2주차 주중 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.07",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-02T20:46:49"
-    },
-    {
-      "id": "5e15feb27db712e77cca52cd3155f610",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 2주차 주중 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.06 ~ 2026.10.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-04T20:42:07"
-    },
-    {
-      "id": "e3bca59e209e8653b01f6f58edb088b7",
-      "title": "<보이는 여고생> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.10.06 ~ 2026.10.15",
-      "event_type": "시사회",
-      "sent_at": "2026-10-06T13:14:58"
-    },
-    {
-      "id": "b75407d0def111b4125a10e3ad152d8a",
-      "title": "<이방인> 경기인디시네마 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.16",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-06T13:14:58"
-    },
-    {
-      "id": "b75407d0def111b4125a10e3ad152d8a",
-      "title": "<이방인> 경기인디시네마 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.16",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-06T13:14:58"
-    },
-    {
-      "id": "ceae403cf888960fb7378ed41c298e3d",
-      "title": "<인턴> 약과 오란다 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.07 ~ 2026.10.08",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-06T21:38:42"
-    },
-    {
-      "id": "dd647a46f9b528d8b8a01251a7546da9",
-      "title": "<변이> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.10.07 ~ 2026.10.19",
-      "event_type": "시사회",
-      "sent_at": "2026-10-07T12:41:28"
-    },
-    {
-      "id": "44b09e44a51d8260fb337e2441feeca8",
-      "title": "<구제역에서 살아 돌아온 돼지> 회원시사회 x 경기인디시네마관",
-      "theater": "LotteCinema",
-      "date": "2026.10.07 ~ 2026.10.14",
-      "event_type": "시사회",
-      "sent_at": "2026-10-07T21:32:29"
-    },
-    {
-      "id": "c13a356bb0166f26b6a36daf7f0c6fc9",
-      "title": "<인턴> 약과 오란다 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.07 ~ 2026.10.09",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-07T21:32:29"
-    },
-    {
-      "id": "65bf8421c874777185cd181bbfae7946",
-      "title": "<흐르는 여정> 프리미어 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.17 ~ 2026.10.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-08T21:41:37"
-    },
-    {
-      "id": "382266a6d543b9afcde439a575df9879",
-      "title": "<스트리트 파이터> 굿즈 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-08T21:41:37"
-    },
-    {
-      "id": "a8fe1794f18ea53670f63a97c2439313",
-      "title": "<흐르는 여정> 프리미어 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-08T21:41:37"
-    },
-    {
-      "id": "5cc7d48a36fd6f3e164b8905a9abd355",
-      "title": "<전자오락수호대> 아크릴 키링 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.17 ~ 2026.10.18",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-08T21:41:37"
-    },
-    {
-      "id": "d9d459144c50c940ce7c190e7bcaf7d4",
-      "title": "<클레이페이스>회원시사회(10/19(월))",
-      "theater": "LotteCinema",
-      "date": "2026.10.09 ~ 2026.10.14",
-      "event_type": "시사회",
-      "sent_at": "2026-10-09T21:33:26"
-    },
-    {
-      "id": "7cdf4f87c65873659d5bb78e2889badd",
-      "title": "<클레이페이스>회원시사회(10/20(화))",
-      "theater": "LotteCinema",
-      "date": "2026.10.09 ~ 2026.10.15",
-      "event_type": "시사회",
-      "sent_at": "2026-10-09T21:33:26"
-    },
-    {
-      "id": "1447ddbe7530667a5cfe0e8bc5904a93",
-      "title": "<전자오락수호대> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-12T12:41:52"
-    },
-    {
-      "id": "793844278c1ab7ffb8cf5b0e4888545b",
-      "title": "<전자오락수호대> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.24 ~ 2026.10.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "7645c97f74ff3091b2897a4dbec5beb1",
-      "title": "<클레이페이스> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.12 ~ 2026.10.15",
-      "event_type": "시사회",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "1218047f0a359dba217d090559655ef6",
-      "title": "<킬링타임> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.12 ~ 2026.10.15",
-      "event_type": "시사회",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "66cc301b225aa06fa2f2a17767fbe301",
-      "title": "<흐르는 여정> 프리미어 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.17",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "ee7829cd420386e2d81cd4148e32302b",
-      "title": "<그대, 별처럼> 스페셜 내한 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.19",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "08388e66b537ac221c12137c8f3740e8",
-      "title": "<그대, 별처럼> 내한 기념 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.19",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-12T23:14:25"
-    },
-    {
-      "id": "1a0e5ddb54fb1d2b1421017c5d9a0675",
-      "title": "<차오> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.12 ~ 2026.10.15",
-      "event_type": "시사회",
-      "sent_at": "2026-10-13T13:54:53"
-    },
-    {
-      "id": "1df652c44d0bdd31ea6c13d7e4a89f35",
-      "title": "<그대, 별처럼> 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-13T22:24:40"
-    },
-    {
-      "id": "dc5e4000d709cdbcfa59e032602db2f7",
-      "title": "<와호장룡> CINE Archive",
-      "theater": "LotteCinema",
-      "date": "2026.10.18",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-14T20:02:58"
-    },
-    {
-      "id": "d120196e510328d20e400667fb11dc9a",
-      "title": "<프레셔>회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.10.14 ~ 2026.10.25",
-      "event_type": "시사회",
-      "sent_at": "2026-10-14T20:02:58"
-    },
-    {
-      "id": "97acb74e51acf24d2df182d67cb505a5",
-      "title": "<구제역에서 살아 돌아온 돼지> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.23",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T11:41:35"
-    },
-    {
-      "id": "cc24824b187de57b6d852355d1183a47",
-      "title": "<킬링타임> 개봉주 주말 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T11:41:35"
-    },
-    {
-      "id": "192ab7cf3f957c141503dc320d303918",
-      "title": "<최종면접> 개봉 전 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.31 ~ 2026.11.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T11:41:35"
-    },
-    {
-      "id": "b943c60aaeac538873e6608775b98b01",
-      "title": "<변이> 뻔뻔한 번아웃 GV",
-      "theater": "LotteCinema",
-      "date": "2026.11.07",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T11:41:35"
-    },
-    {
-      "id": "bf8b6f7d299fab0e72384c7d8d5817a7",
-      "title": "<최종면접> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.11.04 ~ 2026.11.07",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T11:41:35"
-    },
-    {
-      "id": "63f8dedfe57c47c17d412b1a6c299a18",
-      "title": "<최종면접> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.11.04 ~ 2026.11.08",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "904d23331ea792b4c767f0c2c7677d73",
-      "title": "<최종면접> 개봉 전 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.31 ~ 2026.11.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "25a79ad6ddd78679162c8969b98baabb",
-      "title": "<실낙원> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.25 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "bbd5dfae41db2afe78999a9623d25741",
-      "title": "<킬링타임> 개봉일 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.21 ~ 2026.10.21",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "f7f33863de53a4ea7f1ae0803203dbe3",
-      "title": "<실낙원> GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.21",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "eecb1fcb3e7abf48c7c60ba87fcee945",
-      "title": "<킬링타임> 키캡 키링 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.22",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "9353f7795d04c2228ee2d1b7b564f417",
-      "title": "<보이는 여고생> 엽서세트 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-15T19:45:31"
-    },
-    {
-      "id": "25a86a411ae1e745a0084d1bb1d76c51",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 3주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.17 ~ 2026.10.18",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-16T11:37:27"
-    },
-    {
-      "id": "3036fc0ecf4cba852764f96561438bc6",
-      "title": "<여전히 찬란하게> 개봉주 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.25 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-16T19:32:58"
-    },
-    {
-      "id": "5772a5ac0cf611b4db5f62d4da0de625",
-      "title": "<킬링타임> 개봉주 주말 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-16T19:32:58"
-    },
-    {
-      "id": "931f76cb889be80c921d5b421c87f420",
-      "title": "<실낙원> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-16T19:32:58"
-    },
-    {
-      "id": "39a95fc082947588758d4f6109390002",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 3주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.17 ~ 2026.10.18",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-16T19:32:58"
-    },
-    {
-      "id": "b55e49316aed64ad901db5734a784016",
-      "title": "<프레셔> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.17 ~ 2026.10.23",
-      "event_type": "시사회",
-      "sent_at": "2026-10-18T11:30:20"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
       "id": "8b4c8aa91c13f2b8373bd2fd776f9b19",
@@ -582,7 +14,15 @@
       "theater": "Megabox",
       "date": "2026.11.07 ~ 2026.11.07",
       "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "63f8dedfe57c47c17d412b1a6c299a18",
+      "title": "<최종면접> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.04 ~ 2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
       "id": "d8eb3d0f59238da75dda1bc551c90bf9",
@@ -590,247 +30,15 @@
       "theater": "Megabox",
       "date": "2026.10.31 ~ 2026.11.01",
       "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
-      "id": "b2a6434c921d23c1db770dde08624bea",
-      "title": "<실낙원> 개봉일 무대인사",
+      "id": "904d23331ea792b4c767f0c2c7677d73",
+      "title": "<최종면접> 개봉 전 무대인사",
       "theater": "Megabox",
-      "date": "2026.10.21 ~ 2026.10.21",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
-    },
-    {
-      "id": "1b2e212a7ff8f6375721c390bfcd59a2",
-      "title": "<실낙원> 게릴라 개봉일 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.19 ~ 2026.10.21",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-19T20:55:19"
-    },
-    {
-      "id": "18f95635b9d98c8a9aa45a86e5116e4b",
-      "title": "<여전히 찬란하게> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
-    },
-    {
-      "id": "a06b969436d8bb92aa6958df468159d3",
-      "title": "<수능, 출제의 비밀> 1주차 무대인사",
-      "theater": "LotteCinema",
       "date": "2026.10.31 ~ 2026.11.01",
       "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
-    },
-    {
-      "id": "67feab780ed167350bc291afded4576b",
-      "title": "<수능, 출제의 비밀> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.11.07",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-19T20:55:19"
-    },
-    {
-      "id": "ee634b838601c3dd68c8da80a61ad08e",
-      "title": "<파리스 그린이 밝는 날에> 이창용 도슨트 스페셜 GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-20T11:55:21"
-    },
-    {
-      "id": "d0a5d5b733a8e63782f96f332170d1d5",
-      "title": "<최종면접> 개봉주 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.11.04 ~ 2026.11.08",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-20T11:55:21"
-    },
-    {
-      "id": "faf919e27d7b85da8341a9b6f81c9fa9",
-      "title": "<숀 더 쉽: 공포의 털보 괴물> 개봉 전 프리미어 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-20T19:50:44"
-    },
-    {
-      "id": "147c2a043a4bb6668f748ac747441264",
-      "title": "<최종면접> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.20 ~ 2026.10.27",
-      "event_type": "시사회",
-      "sent_at": "2026-10-21T11:49:41"
-    },
-    {
-      "id": "b160a094cc7af15de7d90a8861196c29",
-      "title": "<클레이페이스> 슬라임 증정 스페셜 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-21T11:49:41"
-    },
-    {
-      "id": "792482bd4aa315f49173c977cca040d1",
-      "title": "<여전히 찬란하게> 거울 키링 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.26",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-21T11:49:41"
-    },
-    {
-      "id": "2e4f993fdb38e8290fc92d259f8213fb",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 4주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.24 ~ 2026.10.25",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-21T20:03:08"
-    },
-    {
-      "id": "fea147318d7af4ee4c34ec5c15d1ea7b",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 4주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-21T20:03:08"
-    },
-    {
-      "id": "c3d4c985323020f7867ec2cdcfc53927",
-      "title": "<전자오락수호대> 캐릭터 PET 스탠드 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.24",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-21T20:03:08"
-    },
-    {
-      "id": "1ba90ac23d1049d464d36dd71cab7284",
-      "title": "<모자 쓴 고양이> 회원시사회",
-      "theater": "LotteCinema",
-      "date": "2026.10.22 ~ 2026.10.28",
-      "event_type": "시사회",
-      "sent_at": "2026-10-22T11:48:22"
-    },
-    {
-      "id": "3b7ec15492cfe36016908a9526d38b1e",
-      "title": "<모자 쓴 고양이> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.23 ~ 2026.10.28",
-      "event_type": "시사회",
-      "sent_at": "2026-10-23T11:51:59"
-    },
-    {
-      "id": "60d7ac13d24daa584c6afcbf5f9dfde6",
-      "title": "<비밀상영회> 이번엔 어떤 영화?",
-      "theater": "LotteCinema",
-      "date": "2026.10.29",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T11:51:59"
-    },
-    {
-      "id": "332ca37e5f9b2657a11ecbd0f9f3f7af",
-      "title": "<하트 오브 비스트> 굿즈 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T11:51:59"
-    },
-    {
-      "id": "b9df9aa67a7149f46656b4e333dd432d",
-      "title": "<실낙원> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T11:51:59"
-    },
-    {
-      "id": "b4589f0f5d4c110d1174b7354a5776d1",
-      "title": "<프레셔> 육준서 프레셔: 생존 GV",
-      "theater": "LotteCinema",
-      "date": "2026.11.06",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T11:51:59"
-    },
-    {
-      "id": "495973bdc1d1eca09e7294e093304982",
-      "title": "<실낙원> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.31 ~ 2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T19:55:04"
-    },
-    {
-      "id": "935b4ad5f875327de46fd9491fa344ee",
-      "title": "<그대, 별처럼> 인생멜로 TALK GV",
-      "theater": "LotteCinema",
-      "date": "2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T19:55:04"
-    },
-    {
-      "id": "8a9d819bb5b4eb1451404c1bb299cee2",
-      "title": "<그대, 별처럼> 원작도서 증정 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T19:55:04"
-    },
-    {
-      "id": "f6485960bdbf16e88d0b4aa66d30c726",
-      "title": "<숀 더 쉽: 공포의 털보 괴물> 스페셜상영회",
-      "theater": "LotteCinema",
-      "date": "2026.11.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-23T19:55:04"
-    },
-    {
-      "id": "cba01a9b364c1cbdded48914e94cea3a",
-      "title": "<수능, 출제의 비밀> 개봉일 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.28",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-26T11:38:34"
-    },
-    {
-      "id": "d213f4604fc9d9d45e9e7ab8541bad3a",
-      "title": "<파리스 그린이 밝는 날에> 굿즈패키지 상영회",
-      "theater": "LotteCinema",
-      "date": "2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-26T11:38:34"
-    },
-    {
-      "id": "baeeb80ad91a468af219504d6017c03e",
-      "title": "<트레인스포팅> 스페셜상영회",
-      "theater": "LotteCinema",
-      "date": "2026.11.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-27T20:29:37"
-    },
-    {
-      "id": "6f381fb93e29c3a4af96bf25a08e3f81",
-      "title": "<그대, 별처럼> 2주차 GV",
-      "theater": "LotteCinema",
-      "date": "2026.11.03",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-27T20:29:37"
-    },
-    {
-      "id": "fbd9ca62dcb83713888a15848942bd44",
-      "title": "<최종면접> 개봉2주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.11.14 ~ 2026.11.15",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-28T12:28:01"
-    },
-    {
-      "id": "f319cf5b96cecff34f0ad29aec483778",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 5주차 무대인사",
-      "theater": "Megabox",
-      "date": "2026.10.31 ~ 2026.10.31",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-28T12:28:01"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
       "id": "2620650967e53bee75121274fc9f3600",
@@ -838,55 +46,15 @@
       "theater": "LotteCinema",
       "date": "2026.11.06 ~ 2026.11.29",
       "event_type": "정보전달형(공지)",
-      "sent_at": "2026-10-28T12:28:01"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
-      "id": "2b67ffe0d3bcc00ad764f1e4048dc8c2",
-      "title": "<최종면접> 2주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.11.14 ~ 2026.11.15",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-28T12:28:01"
-    },
-    {
-      "id": "c8b5d66c0e8f09f7e68abbf3a9ccf185",
-      "title": "<욕쟁이 할머니> 메가박스 회원시사",
-      "theater": "Megabox",
-      "date": "2026.10.28 ~ 2026.10.30",
-      "event_type": "시사회",
-      "sent_at": "2026-10-28T20:59:45"
-    },
-    {
-      "id": "321cbe47a70204d84f3fd8afc2663d69",
-      "title": "<극장판 치이카와: 인어 섬의 비밀> 5주차 무대인사",
-      "theater": "LotteCinema",
-      "date": "2026.10.31 ~ 2026.11.01",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-28T20:59:45"
-    },
-    {
-      "id": "450406313e316fac88398eb2ebcf9734",
-      "title": "<어머니의 가계부> 경기인디시네마관 GV",
-      "theater": "LotteCinema",
-      "date": "2026.11.07",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-28T20:59:45"
-    },
-    {
-      "id": "c38c9c28f7e34d646b3207d9f183e4c6",
-      "title": "<클레이페이스> 앵콜 슬라임 증정 상영회",
+      "id": "baeeb80ad91a468af219504d6017c03e",
+      "title": "<트레인스포팅> 스페셜상영회",
       "theater": "LotteCinema",
       "date": "2026.11.01",
       "event_type": "무대인사",
-      "sent_at": "2026-10-29T12:55:29"
-    },
-    {
-      "id": "9eaef50cfa673afeb8d0ee62338e84f8",
-      "title": "<낮과 밤은 서로에게> 가을 밤의 꿈 GV",
-      "theater": "LotteCinema",
-      "date": "2026.11.05",
-      "event_type": "무대인사",
-      "sent_at": "2026-10-29T12:55:29"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
       "id": "5088bca095d133231f702f13b8262b69",
@@ -894,7 +62,7 @@
       "theater": "LotteCinema",
       "date": "2026.11.07",
       "event_type": "무대인사",
-      "sent_at": "2026-10-30T21:00:34"
+      "sent_at": "2026-11-01T12:42:45"
     },
     {
       "id": "1fd49c59cdbffc328e4688a73d5e9bfa",
@@ -902,7 +70,111 @@
       "theater": "LotteCinema",
       "date": "2026.11.09",
       "event_type": "무대인사",
-      "sent_at": "2026-10-30T21:00:34"
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "c38c9c28f7e34d646b3207d9f183e4c6",
+      "title": "<클레이페이스> 앵콜 슬라임 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "9eaef50cfa673afeb8d0ee62338e84f8",
+      "title": "<낮과 밤은 서로에게> 가을 밤의 꿈 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.05",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "321cbe47a70204d84f3fd8afc2663d69",
+      "title": "<극장판 치이카와: 인어 섬의 비밀> 5주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "450406313e316fac88398eb2ebcf9734",
+      "title": "<어머니의 가계부> 경기인디시네마관 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "2b67ffe0d3bcc00ad764f1e4048dc8c2",
+      "title": "<최종면접> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.14 ~ 2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "6f381fb93e29c3a4af96bf25a08e3f81",
+      "title": "<그대, 별처럼> 2주차 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.03",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "f6485960bdbf16e88d0b4aa66d30c726",
+      "title": "<숀 더 쉽: 공포의 털보 괴물> 스페셜상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "b4589f0f5d4c110d1174b7354a5776d1",
+      "title": "<프레셔> 육준서 프레셔: 생존 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "a06b969436d8bb92aa6958df468159d3",
+      "title": "<수능, 출제의 비밀> 1주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "67feab780ed167350bc291afded4576b",
+      "title": "<수능, 출제의 비밀> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "192ab7cf3f957c141503dc320d303918",
+      "title": "<최종면접> 개봉 전 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.10.31 ~ 2026.11.01",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "b943c60aaeac538873e6608775b98b01",
+      "title": "<변이> 뻔뻔한 번아웃 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.07",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
+    },
+    {
+      "id": "d0a5d5b733a8e63782f96f332170d1d5",
+      "title": "<최종면접> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.04 ~ 2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-01T12:42:45"
     }
   ]
 }
