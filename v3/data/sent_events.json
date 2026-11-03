@@ -199,6 +199,62 @@
       "date": "2026.11.07",
       "event_type": "무대인사",
       "sent_at": "2026-11-02T23:36:20"
+    },
+    {
+      "id": "3702236fa5c8f76c9ec62ddf07eee98c",
+      "title": "<극장판 치이카와: 인어 섬의 비밀> 6주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "1b3ef5e7da3de616ad604fcde482aac8",
+      "title": "<실낙원> 3주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "3ccf18b78c00edb2450ffebee2f87c95",
+      "title": "<흐르는 여정> 필름엽서세트 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.06 ~ 2026.11.09",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "36e825a051c225fbefaddf80fefeff57",
+      "title": "<아더 마미> 공포의 광음 회원시사회 (서울/경기)",
+      "theater": "LotteCinema",
+      "date": "2026.11.03 ~ 2026.11.12",
+      "event_type": "시사회",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "cf8c15db70847a041635e40488c73dc8",
+      "title": "<아더 마미> 공포의 광음 회원시사회 (서울/경기 외)",
+      "theater": "LotteCinema",
+      "date": "2026.11.03 ~ 2026.11.12",
+      "event_type": "시사회",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "fb836fd25df5d73e22734fc61e283c85",
+      "title": "<프레셔> 역사 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-03T13:52:13"
+    },
+    {
+      "id": "198b0d82fa825c164fa067f9a6993719",
+      "title": "<트레인스포팅> 단군&김간지 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-03T13:52:13"
     }
   ]
 }
