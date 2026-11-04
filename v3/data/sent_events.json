@@ -295,6 +295,22 @@
       "date": "2026.11.07 ~ 2026.11.08",
       "event_type": "정보전달형(공지)",
       "sent_at": "2026-11-04T13:24:26"
+    },
+    {
+      "id": "27d68d0de711f563c796a802d30bd9d5",
+      "title": "<모자 쓴 고양이> 고양이&씽 분양 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.07 ~ 2026.11.08",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-04T22:41:10"
+    },
+    {
+      "id": "aa6ee1b0d7ccce13eac2b64c650cf90e",
+      "title": "<비밀 상영회> 이벤트 ♪",
+      "theater": "LotteCinema",
+      "date": "2026.11.09",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-04T22:41:10"
     }
   ]
 }
