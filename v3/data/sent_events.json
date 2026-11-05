@@ -311,6 +311,22 @@
       "date": "2026.11.09",
       "event_type": "무대인사",
       "sent_at": "2026-11-04T22:41:10"
+    },
+    {
+      "id": "74a7485a34f704c88eb78a9da8a66ce0",
+      "title": "<낮과 밤은 서로에게> 엉뚱한 재회 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-05T13:38:18"
+    },
+    {
+      "id": "0646d085f7ce76ad8f10e724de73877b",
+      "title": "<마더메리> 논쟁적 GV 시리즈",
+      "theater": "LotteCinema",
+      "date": "2026.11.12",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-05T13:38:18"
     }
   ]
 }
