@@ -351,6 +351,54 @@
       "date": "2026.11.14 ~ 2026.11.15",
       "event_type": "무대인사",
       "sent_at": "2026-11-09T12:59:07"
+    },
+    {
+      "id": "c28643577787ade4e5d5d34daf547b00",
+      "title": "<낮과 밤은 서로에게> 아직 가을이야! GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.13",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "5796cfd125b8387e2b56d9d942e2c4be",
+      "title": "<낮과 밤은 서로에게> 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.13",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "464c73def324c040c193cc094890c79d",
+      "title": "<그대, 별처럼> 문글라스 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "ce8f3b8f3871e93536fe76998970a0d2",
+      "title": "<스크루지: 크리스마스 캐럴> 굿즈 패키지 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.14 ~ 2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "94ac949dbda7c2eb7036080a315e776b",
+      "title": "<마더 메리> 티셔츠 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "a0b77ea10be0bd9ea1a2b017e21f0e80",
+      "title": "<폭설> 개봉주 주말 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.21 ~ 2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-09T23:58:35"
     }
   ]
 }
