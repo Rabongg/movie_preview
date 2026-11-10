@@ -399,6 +399,38 @@
       "date": "2026.11.21 ~ 2026.11.22",
       "event_type": "무대인사",
       "sent_at": "2026-11-09T23:58:35"
+    },
+    {
+      "id": "13e4b128af4aa64c1352011caa7b444b",
+      "title": "<눈 내리는 여름, 너에게> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.28 ~ 2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-10T14:32:30"
+    },
+    {
+      "id": "fae5fb3d9b092a25f84e73fdd43bdec1",
+      "title": "<그대, 별처럼> CINE Archive",
+      "theater": "LotteCinema",
+      "date": "2026.11.14 ~ 2026.11.15",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-10T14:32:30"
+    },
+    {
+      "id": "4893419612f2105bebc45689e5a8ec54",
+      "title": "<폭설> 첫 출근 GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.18",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-10T14:32:30"
+    },
+    {
+      "id": "218b1df393c29b6a22ffb9e67cf03e35",
+      "title": "<눈 내리는 여름, 너에게> 개봉주 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.28 ~ 2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-10T14:32:30"
     }
   ]
 }
