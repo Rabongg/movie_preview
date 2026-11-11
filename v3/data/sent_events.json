@@ -463,6 +463,22 @@
       "date": "2026.11.15",
       "event_type": "무대인사",
       "sent_at": "2026-11-10T23:11:49"
+    },
+    {
+      "id": "c8fd7e466e9c49d7ed8b9f7ebf62bf3d",
+      "title": "<아름다운 초저녁달> 말랑이 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-11T13:03:42"
+    },
+    {
+      "id": "a9c594855b6a8fce3d051a9a53b30080",
+      "title": "<스윙걸즈> 티셔츠 증정 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.21 ~ 2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-11T13:03:42"
     }
   ]
 }
