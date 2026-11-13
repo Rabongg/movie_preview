@@ -503,6 +503,30 @@
       "date": "2026.11.22",
       "event_type": "무대인사",
       "sent_at": "2026-11-13T13:31:12"
+    },
+    {
+      "id": "32ebc6310491e9bc15f034d9f98c56b1",
+      "title": "<옆에서 숨만 쉬어도 좋아> 개봉주 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.22 ~ 2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-13T22:49:22"
+    },
+    {
+      "id": "4ad1eb10ade987eb2f8b95224fbe9297",
+      "title": "<극장판 치이카와: 인어 섬의 비밀>  극장 매너 영상 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.20",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-13T22:49:22"
+    },
+    {
+      "id": "4235dcd5dbec22de0fa6e949ecf3d885",
+      "title": "<슬픈 열대> GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-13T22:49:22"
     }
   ]
 }
