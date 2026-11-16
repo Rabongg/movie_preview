@@ -535,6 +535,22 @@
       "date": "2026.11.21",
       "event_type": "무대인사",
       "sent_at": "2026-11-16T13:12:23"
+    },
+    {
+      "id": "1a2a0b273a0da40e9a4ff7928d69a658",
+      "title": "<그대, 별처럼> 앵콜! 북키링 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-16T23:34:38"
+    },
+    {
+      "id": "50fedd46e8e7910de1faabd1ae8f268c",
+      "title": "<미션산타> 더빙 회원시사회",
+      "theater": "LotteCinema",
+      "date": "2026.11.16 ~ 2026.12.01",
+      "event_type": "시사회",
+      "sent_at": "2026-11-16T23:34:38"
     }
   ]
 }
