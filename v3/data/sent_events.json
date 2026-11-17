@@ -551,6 +551,30 @@
       "date": "2026.11.16 ~ 2026.12.01",
       "event_type": "시사회",
       "sent_at": "2026-11-16T23:34:38"
+    },
+    {
+      "id": "a805aa167c2819c870ef2d2421193d0c",
+      "title": "<라라랜드> 굿즈패키지 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-17T14:59:02"
+    },
+    {
+      "id": "a9c1fb3d457ca55ff3f4e5d8c9e7417a",
+      "title": "<헝거게임 50번째 추첨의 날> 헤이미치 온더락잔 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-17T14:59:02"
+    },
+    {
+      "id": "af59cc147d0b3768e8a3d2477ed3bc72",
+      "title": "<옆에서 숨만 쉬어도 좋아> 굿즈상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.22",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-17T14:59:02"
     }
   ]
 }
