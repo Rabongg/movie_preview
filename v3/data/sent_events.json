@@ -615,6 +615,38 @@
       "date": "2026.11.30",
       "event_type": "무대인사",
       "sent_at": "2026-11-18T14:28:22"
+    },
+    {
+      "id": "02961a9de6496dec9916a9e813cb09f6",
+      "title": "<완벽한 집> 개봉일 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-19T14:26:06"
+    },
+    {
+      "id": "0b17f1a6f4912d00cc6e7b0f2f7d14b9",
+      "title": "<헥스: 마녀왕국> 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.25",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-19T14:26:06"
+    },
+    {
+      "id": "d7b06ed6a5a0d4f61d2d8bc9cdf2d6cd",
+      "title": "<폭설> 폭설주의보 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.26",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-19T14:26:06"
+    },
+    {
+      "id": "0b4e0961cd4c378fa9a56c1adb8b069c",
+      "title": "<레이오버 호텔> 절친 숙려 캠프  GV",
+      "theater": "LotteCinema",
+      "date": "2026.11.28",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-19T14:26:06"
     }
   ]
 }
