@@ -647,6 +647,30 @@
       "date": "2026.11.28",
       "event_type": "무대인사",
       "sent_at": "2026-11-19T14:26:06"
+    },
+    {
+      "id": "6146a011a0543e88b03360674ce60475",
+      "title": "<아름다운 초저녁달> 전지적 응원 시점 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.28",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-11-20T14:12:55"
+    },
+    {
+      "id": "ba4b3a6a4cbb42035fb56f3d976f2fb6",
+      "title": "<폭설> 스포 단속반 임명식 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.23",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T14:12:55"
+    },
+    {
+      "id": "a9ef23bbe6228698f276e7382ecb6cdb",
+      "title": "<폭설> 도시여자 폭설대피소 GV (11/27)",
+      "theater": "LotteCinema",
+      "date": "2026.11.27",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T14:12:55"
     }
   ]
 }
