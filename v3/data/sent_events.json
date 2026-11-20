@@ -671,6 +671,54 @@
       "date": "2026.11.27",
       "event_type": "무대인사",
       "sent_at": "2026-11-20T14:12:55"
+    },
+    {
+      "id": "37f212d8c9c3cd8ad0a5c6e8fc27e09d",
+      "title": "<완벽한 집> 개봉주 주말 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.28 ~ 2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "7bf8576abd23e731f0e54bc2ab194e22",
+      "title": "<극장판 짱구는 못말려: 기기괴괴! 나의 요괴 바캉스> 프리미어 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.28 ~ 2026.11.29",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "d441d39a5c277ddeea1e8c2e44ad163b",
+      "title": "<폭설> 만약에 폭설이 온다면 GV (11/24)",
+      "theater": "LotteCinema",
+      "date": "2026.11.24",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "45b860b18421dacd70978a01be810306",
+      "title": "<너의 췌장을 먹고 싶어> 도서 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.28",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "cc7d3d1f64be43733d5e5d9ad081956a",
+      "title": "<그대, 별처럼> 5주차 오마모리 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "3efa9fadef190c9cf94ceab220ced276",
+      "title": "<완벽한 집> 개봉 주말 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.28 ~ 2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-20T23:48:04"
     }
   ]
 }
