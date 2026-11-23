@@ -719,6 +719,22 @@
       "date": "2026.11.28 ~ 2026.11.29",
       "event_type": "무대인사",
       "sent_at": "2026-11-20T23:48:04"
+    },
+    {
+      "id": "131a9ab08a94410d56e62d8e49c106ef",
+      "title": "<라라랜드> 뱃지 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.28",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-23T14:06:13"
+    },
+    {
+      "id": "d29f47a9e4dd76f1dc3fa1f9ab4cd2aa",
+      "title": "<아름다운 초저녁달> 팜플렛 굿즈 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-23T14:06:13"
     }
   ]
 }
