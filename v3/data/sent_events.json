@@ -775,6 +775,22 @@
       "date": "2026.11.29 ~ 2026.12.06",
       "event_type": "무대인사",
       "sent_at": "2026-11-24T16:52:53"
+    },
+    {
+      "id": "6ee1794ceb0aac3cfc666ec30545546a",
+      "title": "<내일의 민재> 개봉 기념 무대인사",
+      "theater": "Megabox",
+      "date": "2026.12.02 ~ 2026.12.02",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-25T01:53:22"
+    },
+    {
+      "id": "f8245611aaeb930aec273ca071bc304c",
+      "title": "<이터널 선샤인> CINE ARCHIVE",
+      "theater": "LotteCinema",
+      "date": "2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-25T01:53:22"
     }
   ]
 }
