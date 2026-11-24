@@ -735,6 +735,46 @@
       "date": "2026.11.29",
       "event_type": "무대인사",
       "sent_at": "2026-11-23T14:06:13"
+    },
+    {
+      "id": "2646f3715cca721ff840beec6cfb83bf",
+      "title": "<극장판 짱구는 못말려: 기기괴괴! 나의 요괴 바캉스> 코스튬 무대인사",
+      "theater": "Megabox",
+      "date": "2026.11.28 ~ 2026.12.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-24T16:52:53"
+    },
+    {
+      "id": "5341a0653a6a9cd7920e3a583eed1960",
+      "title": "<마우스> 메가박스 회원시사",
+      "theater": "Megabox",
+      "date": "2026.11.24 ~ 2026.11.27",
+      "event_type": "시사회",
+      "sent_at": "2026-11-24T16:52:53"
+    },
+    {
+      "id": "543c7c3b723d63bab75bb4c3818247b5",
+      "title": "12월 독립예술영화 GV",
+      "theater": "LotteCinema",
+      "date": "2026.12.12 ~ 2026.12.15",
+      "event_type": "정보전달형(공지)",
+      "sent_at": "2026-11-24T16:52:53"
+    },
+    {
+      "id": "68f55bae5bef3b43d262ec360cfcd814",
+      "title": "<내일의 민재> GV",
+      "theater": "LotteCinema",
+      "date": "2026.12.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-24T16:52:53"
+    },
+    {
+      "id": "b4feabfe79206888fe3fa686dc6db2df",
+      "title": "<극장판 짱구는 못말려: 기기괴괴! 나의 요괴 바캉스> 더빙 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.29 ~ 2026.12.06",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-24T16:52:53"
     }
   ]
 }
