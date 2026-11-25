@@ -791,6 +791,22 @@
       "date": "2026.11.29",
       "event_type": "무대인사",
       "sent_at": "2026-11-25T01:53:22"
+    },
+    {
+      "id": "3f1fd1f5d3c3a990de88a4793af075d0",
+      "title": "<폭설> 2주차 무대인사",
+      "theater": "LotteCinema",
+      "date": "2026.11.28",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-25T15:27:03"
+    },
+    {
+      "id": "fce5939fe8666fcef63780a21f47c06e",
+      "title": "<미트 페어런츠4> 키링 증정 상영회",
+      "theater": "LotteCinema",
+      "date": "2026.11.29",
+      "event_type": "무대인사",
+      "sent_at": "2026-11-25T15:27:03"
     }
   ]
 }
